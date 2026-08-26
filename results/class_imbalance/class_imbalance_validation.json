@@ -1,0 +1,23 @@
+{
+    "training_only_source_verified": true,
+    "training_images": 11199,
+    "classes": 10,
+    "majority_class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "majority_class_count": 2246,
+    "minority_class": "Tomato__Tomato_mosaic_virus",
+    "minority_class_count": 261,
+    "training_imbalance_ratio": 8.60536398467433,
+    "all_weights_positive": true,
+    "all_weights_finite": true,
+    "weighted_sample_mean": 1.0,
+    "expected_weighted_sample_mean": 1.0,
+    "maximum_balanced_contribution_deviation": 2.2737367544323206e-13,
+    "class_weight_tensor_shape": [
+        10
+    ],
+    "class_weight_tensor_dtype": "torch.float32",
+    "class_weight_tensor_device": "cuda:0",
+    "weighted_cross_entropy_ready": true,
+    "unweighted_cross_entropy_ready": true,
+    "weighted_random_sampler_used": false
+}

@@ -1,0 +1,16 @@
+{
+    "device": "cuda",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+    "batch_size": 32,
+    "num_workers": 0,
+    "pin_memory": true,
+    "persistent_workers": false,
+    "drop_last": false,
+    "train_shuffle": true,
+    "validation_shuffle": false,
+    "test_shuffle": false,
+    "train_batches": 350,
+    "validation_batches": 75,
+    "test_batches": 75
+}

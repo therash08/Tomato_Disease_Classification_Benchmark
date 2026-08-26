@@ -1,0 +1,16 @@
+{
+    "source_dataset": "PlantVillage Tomato Subset",
+    "storage_strategy": "manifest_only_raw_images_untouched",
+    "raw_valid_images": 16011,
+    "removed_redundant_exact_duplicates": 14,
+    "clean_manifest_rows": 15997,
+    "number_of_classes": 10,
+    "missing_manifest_values": 0,
+    "duplicate_image_paths": 0,
+    "duplicate_relative_paths": 0,
+    "duplicate_md5_hashes": 0,
+    "duplicate_image_ids": 0,
+    "missing_physical_files": 0,
+    "class_distribution_matches_part6": true,
+    "part5_hash_consistency": true
+}

@@ -1,0 +1,7 @@
+model,input_size,micro_batch_size,train_images,validation_images,train_batches,validation_batches,baseline_random_augmentation,improved_random_augmentation,validation_random_augmentation,same_seeded_sampler_order,test_partition_accessed
+ResNet50,224,32,11199,2399,350,75,False,True,False,True,False
+MobileNet,224,32,11199,2399,350,75,False,True,False,True,False
+EfficientNet-B0,224,32,11199,2399,350,75,False,True,False,True,False
+ConvNeXt-Tiny,224,16,11199,2399,700,150,False,True,False,True,False
+VGG16,224,16,11199,2399,700,150,False,True,False,True,False
+InceptionNet,299,16,11199,2399,700,150,False,True,False,True,False

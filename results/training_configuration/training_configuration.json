@@ -1,0 +1,101 @@
+{
+    "models": [
+        "ResNet50",
+        "MobileNet",
+        "EfficientNet-B0",
+        "ConvNeXt-Tiny",
+        "VGG16",
+        "InceptionNet"
+    ],
+    "training_modes": {
+        "baseline": {
+            "imagenet_pretrained": true,
+            "augmentation": false,
+            "training_loss": "Unweighted CrossEntropyLoss"
+        },
+        "improved": {
+            "imagenet_pretrained": true,
+            "augmentation": true,
+            "training_loss": "Weighted CrossEntropyLoss"
+        }
+    },
+    "validation_loss": {
+        "criterion": "Unweighted CrossEntropyLoss",
+        "same_for_all_models": true,
+        "same_for_all_training_modes": true
+    },
+    "optimizer": {
+        "name": "AdamW",
+        "initial_lr": 0.0001,
+        "weight_decay": 0.0001,
+        "fused": true
+    },
+    "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "monitor": "validation_loss",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 2,
+        "min_lr": 1e-06
+    },
+    "training": {
+        "maximum_epochs": 30,
+        "early_stopping_patience": 7,
+        "gradient_clip_norm": 1.0,
+        "effective_batch_size": 32
+    },
+    "amp": {
+        "enabled": true,
+        "dtype": "torch.float16",
+        "initial_scale": 65536.0,
+        "maximum_recovery_steps": 8
+    },
+    "model_selection": {
+        "primary_metric": "validation_loss",
+        "criterion": "lowest_validation_loss",
+        "test_set_used": false
+    },
+    "gpu": {
+        "name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+        "vram_gb": 5.99951171875,
+        "safety_fraction": 0.82
+    },
+    "model_profiles": {
+        "ResNet50": {
+            "input_size": 224,
+            "micro_batch_size": 32,
+            "gradient_accumulation_steps": 1,
+            "effective_batch_size": 32
+        },
+        "MobileNet": {
+            "input_size": 224,
+            "micro_batch_size": 32,
+            "gradient_accumulation_steps": 1,
+            "effective_batch_size": 32
+        },
+        "EfficientNet-B0": {
+            "input_size": 224,
+            "micro_batch_size": 32,
+            "gradient_accumulation_steps": 1,
+            "effective_batch_size": 32
+        },
+        "ConvNeXt-Tiny": {
+            "input_size": 224,
+            "micro_batch_size": 16,
+            "gradient_accumulation_steps": 2,
+            "effective_batch_size": 32
+        },
+        "VGG16": {
+            "input_size": 224,
+            "micro_batch_size": 16,
+            "gradient_accumulation_steps": 2,
+            "effective_batch_size": 32
+        },
+        "InceptionNet": {
+            "input_size": 299,
+            "micro_batch_size": 16,
+            "gradient_accumulation_steps": 2,
+            "effective_batch_size": 32
+        }
+    }
+}

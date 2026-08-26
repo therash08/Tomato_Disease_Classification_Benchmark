@@ -1,0 +1,122 @@
+{
+    "part": "PART 17.6B",
+    "architecture": "InceptionNet",
+    "root_cause": "InceptionNet transform_input is a non-state model configuration and was False during the original PART 17 test inference.",
+    "correct_setting": "transform_input=True",
+    "selection_basis": "locked validation parity",
+    "independent_test_performance_used_for_selection": false,
+    "baseline_validation_parity": {
+        "locked_accuracy_percent": 99.6248436848687,
+        "transform_input_false_accuracy_percent": 41.350563,
+        "transform_input_true_accuracy_percent": 99.624844
+    },
+    "improved_validation_parity": {
+        "locked_accuracy_percent": 99.70821175489787,
+        "transform_input_false_accuracy_percent": 61.150479,
+        "transform_input_true_accuracy_percent": 99.708212
+    },
+    "superseded_artifacts": {
+        "baseline": {
+            "training_mode": "baseline",
+            "model_name": "InceptionNet",
+            "sample_count": 2399,
+            "input_size": 299,
+            "batch_size": 16,
+            "elapsed_seconds": 16.760905000002822,
+            "prediction_csv": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\inceptionnet_test_predictions.csv",
+            "prediction_csv_sha256": "f47755eabdcf5fc87ed4ef512564d725258af6ae78d705e3b835022e5222d338",
+            "arrays_npz": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\inceptionnet_test_arrays.npz",
+            "arrays_npz_sha256": "136fdd4cedbdc5d9a84fc321162a684f0280000eb8e3a8689060082ae0d10f33",
+            "metadata_json": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\inceptionnet_test_metadata.json",
+            "metadata_json_sha256": "018f5585c0202024f61f92e3dd1938b43a4477b383b346cd62d2411a83a663eb",
+            "probability_shape": [
+                2399,
+                10
+            ],
+            "probabilities_finite": true,
+            "probabilities_normalized": true,
+            "prediction_argmax_match": true,
+            "aggregate_metrics_calculated": false
+        },
+        "improved": {
+            "training_mode": "improved",
+            "model_name": "InceptionNet",
+            "sample_count": 2399,
+            "input_size": 299,
+            "batch_size": 16,
+            "elapsed_seconds": 17.206933000008576,
+            "prediction_csv": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\improved\\inceptionnet_test_predictions.csv",
+            "prediction_csv_sha256": "40aa54d17f780d739342ea5431d765c500bdfd9e7056166d070a805be6f174b9",
+            "arrays_npz": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\improved\\inceptionnet_test_arrays.npz",
+            "arrays_npz_sha256": "0868a274aaff08a45050fc4272b3bcd804c0eb0f53c0f438eb7008bdf3dabec9",
+            "metadata_json": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\improved\\inceptionnet_test_metadata.json",
+            "metadata_json_sha256": "7587a3de26cd9982c67110f7bd5747c8aed9ff45d05ebfa62b83f16803593d7a",
+            "probability_shape": [
+                2399,
+                10
+            ],
+            "test_label_order_matches_baseline": true,
+            "probabilities_finite": true,
+            "probabilities_normalized": true,
+            "prediction_argmax_match": true,
+            "aggregate_metrics_calculated": false
+        }
+    },
+    "corrected_artifacts": {
+        "baseline": {
+            "training_mode": "baseline",
+            "model_name": "InceptionNet",
+            "sample_count": 2399,
+            "input_size": 299,
+            "batch_size": 16,
+            "elapsed_seconds": 17.792439299999387,
+            "prediction_csv": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\corrected_inceptionnet\\baseline\\inceptionnet_test_predictions_transform_input_true.csv",
+            "prediction_csv_sha256": "5be13a4e29cfb0e2dc7ae8dc98acb4dbcf7f62e54f145c99551f9ab2ca67cf90",
+            "arrays_npz": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\corrected_inceptionnet\\baseline\\inceptionnet_test_arrays_transform_input_true.npz",
+            "arrays_npz_sha256": "d30c08dc6408ed1a5356188bdcf36c38c52814e8c5934aff2364d402411b7864",
+            "metadata_json": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\corrected_inceptionnet\\baseline\\inceptionnet_test_metadata_transform_input_true.json",
+            "metadata_json_sha256": "f027597d167d3ae2075acc7059cd8c295eb25d548c084cedac73ee468361ef7e",
+            "probability_shape": [
+                2399,
+                10
+            ],
+            "probabilities_finite": true,
+            "probabilities_normalized": true,
+            "maximum_probability_sum_deviation": 2.384185791015625e-07,
+            "prediction_argmax_match": true,
+            "evaluation_correction": "transform_input=True",
+            "correction_selected_from_validation_only": true,
+            "aggregate_metrics_calculated": false
+        },
+        "improved": {
+            "training_mode": "improved",
+            "model_name": "InceptionNet",
+            "sample_count": 2399,
+            "input_size": 299,
+            "batch_size": 16,
+            "elapsed_seconds": 16.932387100008782,
+            "prediction_csv": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\corrected_inceptionnet\\improved\\inceptionnet_test_predictions_transform_input_true.csv",
+            "prediction_csv_sha256": "9355d034c0d0395acd4f4c3748a1a5e00cf6518dcebf10f78c3d6236e66a61b2",
+            "arrays_npz": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\corrected_inceptionnet\\improved\\inceptionnet_test_arrays_transform_input_true.npz",
+            "arrays_npz_sha256": "fa3a23b60b4ace43348d09a148bbb87a9b67fa3ffc71115b3f636ebfc8064c9f",
+            "metadata_json": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\corrected_inceptionnet\\improved\\inceptionnet_test_metadata_transform_input_true.json",
+            "metadata_json_sha256": "83cb3f88e6adaad090f92b23ec9d1cb2bfd769149484ffd0fb8dd623e31634e0",
+            "probability_shape": [
+                2399,
+                10
+            ],
+            "probabilities_finite": true,
+            "probabilities_normalized": true,
+            "maximum_probability_sum_deviation": 2.384185791015625e-07,
+            "prediction_argmax_match": true,
+            "evaluation_correction": "transform_input=True",
+            "correction_selected_from_validation_only": true,
+            "aggregate_metrics_calculated": false
+        }
+    },
+    "other_ten_prediction_sets_changed": false,
+    "previous_part_17_6_metrics_superseded": true,
+    "aggregate_metrics_calculated_in_part_17_6b": false,
+    "model_ranking_performed": false,
+    "final_winner_declared": false
+}

@@ -1,0 +1,180 @@
+{
+    "part": "PART 16C.4",
+    "description": "Development checkpoint lock before independent test evaluation",
+    "created_utc": "2026-08-26T21:12:14.670404+00:00",
+    "project_root": "D:\\Tomato_Disease_Research",
+    "checkpoint_count": 12,
+    "baseline_checkpoint_count": 6,
+    "improved_checkpoint_count": 6,
+    "model_architectures": [
+        "ResNet50",
+        "MobileNet",
+        "EfficientNet-B0",
+        "ConvNeXt-Tiny",
+        "VGG16",
+        "InceptionNet"
+    ],
+    "protocol": {
+        "baseline": {
+            "imagenet_pretrained": true,
+            "full_network_finetuning": true,
+            "training_augmentation": false,
+            "training_loss": "Unweighted CrossEntropyLoss",
+            "validation_loss": "Unweighted CrossEntropyLoss"
+        },
+        "improved": {
+            "imagenet_pretrained": true,
+            "full_network_finetuning": true,
+            "training_augmentation": true,
+            "training_loss": "Weighted CrossEntropyLoss",
+            "validation_loss": "Unweighted CrossEntropyLoss"
+        },
+        "selection_basis": "Development validation performance only",
+        "final_winner_declared": false,
+        "test_inference_performed_in_part_16c4": false
+    },
+    "comparison_artifacts": {
+        "comparison_csv": {
+            "path": "D:\\Tomato_Disease_Research\\results\\comparison\\baseline_vs_improved_validation_comparison.csv",
+            "sha256": "a96477e303a0536504d1c7f4c7469e540c417e27dffd3d87e243a1f4d54b3a79"
+        },
+        "comparison_json": {
+            "path": "D:\\Tomato_Disease_Research\\results\\comparison\\baseline_vs_improved_validation_comparison.json",
+            "sha256": "828c9b4d54fd7e69991a2831cd301e522986eea3dd545ea3b575e1aeffa3d17d"
+        }
+    },
+    "checkpoints": [
+        {
+            "training_mode": "baseline",
+            "model_name": "ResNet50",
+            "saved_epoch": 11,
+            "validation_loss": 0.009320408764259082,
+            "validation_accuracy_percent": 99.79157982492706,
+            "checkpoint_size_bytes": 94434851,
+            "checkpoint_size_mb": 90.06009197235107,
+            "sha256": "2d7b272ac31b109475ac9443ab5812b9f6864355b34015565d70dba5b59d843b",
+            "checkpoint_path": "D:\\Tomato_Disease_Research\\checkpoints\\baseline\\ResNet50_best.pth"
+        },
+        {
+            "training_mode": "baseline",
+            "model_name": "MobileNet",
+            "saved_epoch": 13,
+            "validation_loss": 0.0214303898880909,
+            "validation_accuracy_percent": 99.66652771988328,
+            "checkpoint_size_bytes": 17067905,
+            "checkpoint_size_mb": 16.277222633361816,
+            "sha256": "cf72eab69860a3dc828c87f0aff6dbca3dd5b2ac43c7030707f089a4b8264c9a",
+            "checkpoint_path": "D:\\Tomato_Disease_Research\\checkpoints\\baseline\\MobileNet_best.pth"
+        },
+        {
+            "training_mode": "baseline",
+            "model_name": "EfficientNet-B0",
+            "saved_epoch": 13,
+            "validation_loss": 0.012466827945542646,
+            "validation_accuracy_percent": 99.74989578991247,
+            "checkpoint_size_bytes": 16385413,
+            "checkpoint_size_mb": 15.626347541809082,
+            "sha256": "16fb2f7543fe641c9fd0cb56da7a2ee9fb5ffc72c3f7ae1d1534864ac93f3768",
+            "checkpoint_path": "D:\\Tomato_Disease_Research\\checkpoints\\baseline\\EfficientNet_B0_best.pth"
+        },
+        {
+            "training_mode": "baseline",
+            "model_name": "ConvNeXt-Tiny",
+            "saved_epoch": 11,
+            "validation_loss": 0.006640054822811692,
+            "validation_accuracy_percent": 99.83326385994164,
+            "checkpoint_size_bytes": 111380839,
+            "checkpoint_size_mb": 106.22104549407959,
+            "sha256": "5d1e396af5954e11b9e12926d1f588898e04dc7999d811de3f060b7b31eb04c0",
+            "checkpoint_path": "D:\\Tomato_Disease_Research\\checkpoints\\baseline\\ConvNeXt_Tiny_best.pth"
+        },
+        {
+            "training_mode": "baseline",
+            "model_name": "VGG16",
+            "saved_epoch": 8,
+            "validation_loss": 0.05155099352581792,
+            "validation_accuracy_percent": 98.95789912463526,
+            "checkpoint_size_bytes": 537218997,
+            "checkpoint_size_mb": 512.3319597244263,
+            "sha256": "05fc1936f2ce8f70eda7a0abec5796a3bb9749a755e01926dce5cd16b58a6754",
+            "checkpoint_path": "D:\\Tomato_Disease_Research\\checkpoints\\baseline\\VGG16_best.pth"
+        },
+        {
+            "training_mode": "baseline",
+            "model_name": "InceptionNet",
+            "saved_epoch": 10,
+            "validation_loss": 0.014199403486139201,
+            "validation_accuracy_percent": 99.6248436848687,
+            "checkpoint_size_bytes": 87564971,
+            "checkpoint_size_mb": 83.5084638595581,
+            "sha256": "4f9a924cee6c9dd3e6a20fb0e85866053be8755bc20e20152be03ed0a03cffe4",
+            "checkpoint_path": "D:\\Tomato_Disease_Research\\checkpoints\\baseline\\InceptionNet_best.pth"
+        },
+        {
+            "training_mode": "improved",
+            "model_name": "ResNet50",
+            "saved_epoch": 12,
+            "validation_loss": 0.014729101591323629,
+            "validation_accuracy_percent": 99.70821175489787,
+            "checkpoint_size_bytes": 94435171,
+            "checkpoint_size_mb": 90.06039714813232,
+            "sha256": "6887f99bbeb6694a9c793d5b44eb512ede1f73100283d6d05efe09838accc233",
+            "checkpoint_path": "D:\\Tomato_Disease_Research\\checkpoints\\improved\\ResNet50_best.pth"
+        },
+        {
+            "training_mode": "improved",
+            "model_name": "MobileNet",
+            "saved_epoch": 24,
+            "validation_loss": 0.014416530759394332,
+            "validation_accuracy_percent": 99.66652771988328,
+            "checkpoint_size_bytes": 17068225,
+            "checkpoint_size_mb": 16.277527809143066,
+            "sha256": "e4515ab6bca09830c966379e2d8144494c16839d104e188734346ef7f86ada88",
+            "checkpoint_path": "D:\\Tomato_Disease_Research\\checkpoints\\improved\\MobileNet_best.pth"
+        },
+        {
+            "training_mode": "improved",
+            "model_name": "EfficientNet-B0",
+            "saved_epoch": 15,
+            "validation_loss": 0.014171041514116673,
+            "validation_accuracy_percent": 99.5831596498541,
+            "checkpoint_size_bytes": 16385797,
+            "checkpoint_size_mb": 15.626713752746582,
+            "sha256": "1f8e17ffe798178cd2bb5f965116fe9f91939edd8182d0d452cac28feceb6702",
+            "checkpoint_path": "D:\\Tomato_Disease_Research\\checkpoints\\improved\\EfficientNet_B0_best.pth"
+        },
+        {
+            "training_mode": "improved",
+            "model_name": "ConvNeXt-Tiny",
+            "saved_epoch": 27,
+            "validation_loss": 0.0027132571961001905,
+            "validation_accuracy_percent": 99.95831596498542,
+            "checkpoint_size_bytes": 111381223,
+            "checkpoint_size_mb": 106.22141170501709,
+            "sha256": "9cf5ff6aa3897e1a4de6878f62b3b6ae61828e28c4b9f6c002eef952b917722a",
+            "checkpoint_path": "D:\\Tomato_Disease_Research\\checkpoints\\improved\\ConvNeXt_Tiny_best.pth"
+        },
+        {
+            "training_mode": "improved",
+            "model_name": "VGG16",
+            "saved_epoch": 21,
+            "validation_loss": 0.0401855279823898,
+            "validation_accuracy_percent": 99.49979157982493,
+            "checkpoint_size_bytes": 537219317,
+            "checkpoint_size_mb": 512.3322649002075,
+            "sha256": "08567ba914bc05d80c0b3c176038a68b17ffb272efaf2434770440c322b2307c",
+            "checkpoint_path": "D:\\Tomato_Disease_Research\\checkpoints\\improved\\VGG16_best.pth"
+        },
+        {
+            "training_mode": "improved",
+            "model_name": "InceptionNet",
+            "saved_epoch": 20,
+            "validation_loss": 0.015307301181016782,
+            "validation_accuracy_percent": 99.70821175489787,
+            "checkpoint_size_bytes": 87565291,
+            "checkpoint_size_mb": 83.50876903533936,
+            "sha256": "49ff2ff37d5d9f6b9b256b96e623b9131fb2e8bd59f00cf173a03ad382dd4218",
+            "checkpoint_path": "D:\\Tomato_Disease_Research\\checkpoints\\improved\\InceptionNet_best.pth"
+        }
+    ]
+}

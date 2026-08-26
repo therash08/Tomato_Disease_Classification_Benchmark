@@ -1,0 +1,188 @@
+{
+    "part": "PART 17.3",
+    "version": "dedicated_torchvision_eval_factory",
+    "architecture_namespace": "torchvision.models as tv_models",
+    "pretrained_weights_loaded": false,
+    "inference_precision": "FP32",
+    "device": "cuda",
+    "class_count": 10,
+    "class_order": [
+        "Tomato_Bacterial_spot",
+        "Tomato_Early_blight",
+        "Tomato_Late_blight",
+        "Tomato_Leaf_Mold",
+        "Tomato_Septoria_leaf_spot",
+        "Tomato_Spider_mites_Two_spotted_spider_mite",
+        "Tomato__Target_Spot",
+        "Tomato__Tomato_YellowLeaf__Curl_Virus",
+        "Tomato__Tomato_mosaic_virus",
+        "Tomato_healthy"
+    ],
+    "test_sample_count": 2399,
+    "test_membership_sha256": "a6cc66f6e6829d56a10d5daa91efd8bdcfdcba35480024304d273564ead80b20",
+    "class_mapping_sha256": "1ada3c6fcf400fd16cba991fccb1f172c5ed75d6e6f782a0a5812fcd6e254673",
+    "checkpoint_count": 12,
+    "synthetic_checks": 12,
+    "test_loader_iterated": false,
+    "test_inference_started": false,
+    "test_predictions_generated": false,
+    "aggregate_metrics_calculated": false,
+    "verification_records": [
+        {
+            "training_mode": "baseline",
+            "model_name": "ResNet50",
+            "input_size": 224,
+            "output_shape": [
+                1,
+                10
+            ],
+            "parameter_count": 23528522,
+            "strict_state_load": true,
+            "checkpoint_sha256_verified": true,
+            "finite_output": true
+        },
+        {
+            "training_mode": "baseline",
+            "model_name": "MobileNet",
+            "input_size": 224,
+            "output_shape": [
+                1,
+                10
+            ],
+            "parameter_count": 4214842,
+            "strict_state_load": true,
+            "checkpoint_sha256_verified": true,
+            "finite_output": true
+        },
+        {
+            "training_mode": "baseline",
+            "model_name": "EfficientNet-B0",
+            "input_size": 224,
+            "output_shape": [
+                1,
+                10
+            ],
+            "parameter_count": 4020358,
+            "strict_state_load": true,
+            "checkpoint_sha256_verified": true,
+            "finite_output": true
+        },
+        {
+            "training_mode": "baseline",
+            "model_name": "ConvNeXt-Tiny",
+            "input_size": 224,
+            "output_shape": [
+                1,
+                10
+            ],
+            "parameter_count": 27827818,
+            "strict_state_load": true,
+            "checkpoint_sha256_verified": true,
+            "finite_output": true
+        },
+        {
+            "training_mode": "baseline",
+            "model_name": "VGG16",
+            "input_size": 224,
+            "output_shape": [
+                1,
+                10
+            ],
+            "parameter_count": 134301514,
+            "strict_state_load": true,
+            "checkpoint_sha256_verified": true,
+            "finite_output": true
+        },
+        {
+            "training_mode": "baseline",
+            "model_name": "InceptionNet",
+            "input_size": 299,
+            "output_shape": [
+                1,
+                10
+            ],
+            "parameter_count": 21806058,
+            "strict_state_load": true,
+            "checkpoint_sha256_verified": true,
+            "finite_output": true
+        },
+        {
+            "training_mode": "improved",
+            "model_name": "ResNet50",
+            "input_size": 224,
+            "output_shape": [
+                1,
+                10
+            ],
+            "parameter_count": 23528522,
+            "strict_state_load": true,
+            "checkpoint_sha256_verified": true,
+            "finite_output": true
+        },
+        {
+            "training_mode": "improved",
+            "model_name": "MobileNet",
+            "input_size": 224,
+            "output_shape": [
+                1,
+                10
+            ],
+            "parameter_count": 4214842,
+            "strict_state_load": true,
+            "checkpoint_sha256_verified": true,
+            "finite_output": true
+        },
+        {
+            "training_mode": "improved",
+            "model_name": "EfficientNet-B0",
+            "input_size": 224,
+            "output_shape": [
+                1,
+                10
+            ],
+            "parameter_count": 4020358,
+            "strict_state_load": true,
+            "checkpoint_sha256_verified": true,
+            "finite_output": true
+        },
+        {
+            "training_mode": "improved",
+            "model_name": "ConvNeXt-Tiny",
+            "input_size": 224,
+            "output_shape": [
+                1,
+                10
+            ],
+            "parameter_count": 27827818,
+            "strict_state_load": true,
+            "checkpoint_sha256_verified": true,
+            "finite_output": true
+        },
+        {
+            "training_mode": "improved",
+            "model_name": "VGG16",
+            "input_size": 224,
+            "output_shape": [
+                1,
+                10
+            ],
+            "parameter_count": 134301514,
+            "strict_state_load": true,
+            "checkpoint_sha256_verified": true,
+            "finite_output": true
+        },
+        {
+            "training_mode": "improved",
+            "model_name": "InceptionNet",
+            "input_size": 299,
+            "output_shape": [
+                1,
+                10
+            ],
+            "parameter_count": 21806058,
+            "strict_state_load": true,
+            "checkpoint_sha256_verified": true,
+            "finite_output": true
+        }
+    ]
+}

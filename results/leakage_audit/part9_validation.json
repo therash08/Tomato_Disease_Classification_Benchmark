@@ -1,0 +1,21 @@
+{
+    "clean_dataset_images": 15997,
+    "training_images": 11199,
+    "validation_images": 2399,
+    "test_images": 2399,
+    "number_of_classes": 10,
+    "image_id_overlap": 0,
+    "relative_path_overlap": 0,
+    "md5_overlap": 0,
+    "near_duplicate_group_overlap": 0,
+    "independent_cross_split_phash_matches": 0,
+    "phash_hamming_threshold": 4,
+    "missing_physical_files": 0,
+    "missing_clean_images": 0,
+    "unknown_split_images": 0,
+    "cross_class_perceptual_groups": 6,
+    "cross_class_groups_crossing_splits": 0,
+    "maximum_overall_ratio_deviation": 6.87628930424733e-05,
+    "maximum_class_ratio_deviation": 0.00047732696897384574,
+    "cross_class_manual_review_required": true
+}

@@ -1,0 +1,159 @@
+{
+    "part": "PART 17.4",
+    "condition": "baseline",
+    "description": "Frozen Baseline independent test predictions",
+    "model_count": 6,
+    "models": [
+        "ResNet50",
+        "MobileNet",
+        "EfficientNet-B0",
+        "ConvNeXt-Tiny",
+        "VGG16",
+        "InceptionNet"
+    ],
+    "test_sample_count": 2399,
+    "test_membership_sha256": "a6cc66f6e6829d56a10d5daa91efd8bdcfdcba35480024304d273564ead80b20",
+    "class_mapping_sha256": "1ada3c6fcf400fd16cba991fccb1f172c5ed75d6e6f782a0a5812fcd6e254673",
+    "inference_precision": "FP32",
+    "test_loader_iterated": true,
+    "test_inference_started": true,
+    "raw_predictions_generated": true,
+    "aggregate_metrics_calculated": false,
+    "model_ranking_performed": false,
+    "final_winner_declared": false,
+    "total_elapsed_seconds": 90.55182480000076,
+    "artifacts": [
+        {
+            "training_mode": "baseline",
+            "model_name": "ResNet50",
+            "sample_count": 2399,
+            "input_size": 224,
+            "batch_size": 32,
+            "elapsed_seconds": 14.723181699999259,
+            "prediction_csv": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\resnet50_test_predictions.csv",
+            "prediction_csv_sha256": "eb9acb70beff6f3437da06cabc5454c81c4daec6f094ef9dfa7defa4c7e98921",
+            "arrays_npz": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\resnet50_test_arrays.npz",
+            "arrays_npz_sha256": "d61d73b42b3d1244bc31ceb87c095158fc496c8bb331da58e76cb721fa04720c",
+            "metadata_json": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\resnet50_test_metadata.json",
+            "metadata_json_sha256": "3d934efc5e99f0cc2dad71db3c316675e789989faaea7c4505ad8cfebbb845b6",
+            "probability_shape": [
+                2399,
+                10
+            ],
+            "probabilities_finite": true,
+            "probabilities_normalized": true,
+            "prediction_argmax_match": true,
+            "aggregate_metrics_calculated": false
+        },
+        {
+            "training_mode": "baseline",
+            "model_name": "MobileNet",
+            "sample_count": 2399,
+            "input_size": 224,
+            "batch_size": 32,
+            "elapsed_seconds": 8.409252900004503,
+            "prediction_csv": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\mobilenet_test_predictions.csv",
+            "prediction_csv_sha256": "487908e5c7c59679fc38cf7d3043d495a1ee7e36afe717f26138383e2fdb6d16",
+            "arrays_npz": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\mobilenet_test_arrays.npz",
+            "arrays_npz_sha256": "dfdd16cbe5488a6110f9ac3c07b796ef6c8f9414edbf44010c6ae3be35b9a471",
+            "metadata_json": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\mobilenet_test_metadata.json",
+            "metadata_json_sha256": "5079aee1b00ba767c96e2c1d75825c90c10edc2359f3d05d353c9191adc70a51",
+            "probability_shape": [
+                2399,
+                10
+            ],
+            "probabilities_finite": true,
+            "probabilities_normalized": true,
+            "prediction_argmax_match": true,
+            "aggregate_metrics_calculated": false
+        },
+        {
+            "training_mode": "baseline",
+            "model_name": "EfficientNet-B0",
+            "sample_count": 2399,
+            "input_size": 224,
+            "batch_size": 32,
+            "elapsed_seconds": 9.095137700001942,
+            "prediction_csv": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\efficientnet_b0_test_predictions.csv",
+            "prediction_csv_sha256": "8807bc4db7b7d1b18158f4570c0ea8faa43107963d8185aea319cc7fb4b1ca39",
+            "arrays_npz": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\efficientnet_b0_test_arrays.npz",
+            "arrays_npz_sha256": "c0d15f99399cc869405343628e7cded4b541f8747d332bb9469876b898b2ba9a",
+            "metadata_json": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\efficientnet_b0_test_metadata.json",
+            "metadata_json_sha256": "acdcca2a08f27414ed07af83469c03ede08238d81d5b2c13c2630b50c3c7131f",
+            "probability_shape": [
+                2399,
+                10
+            ],
+            "probabilities_finite": true,
+            "probabilities_normalized": true,
+            "prediction_argmax_match": true,
+            "aggregate_metrics_calculated": false
+        },
+        {
+            "training_mode": "baseline",
+            "model_name": "ConvNeXt-Tiny",
+            "sample_count": 2399,
+            "input_size": 224,
+            "batch_size": 16,
+            "elapsed_seconds": 17.084694699995453,
+            "prediction_csv": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\convnext_tiny_test_predictions.csv",
+            "prediction_csv_sha256": "32bff08c7f9f8e136da075d81d0a27eee91895b46606874f68bac262fbff6dac",
+            "arrays_npz": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\convnext_tiny_test_arrays.npz",
+            "arrays_npz_sha256": "fd34efc6d55b9313c30425ff9a73c3c95ae8e786f882fd0e9c0011692b543497",
+            "metadata_json": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\convnext_tiny_test_metadata.json",
+            "metadata_json_sha256": "2193bbd024518a4b06103056534923ed0ad82d511bc08b49f4a16bfdf1523bd2",
+            "probability_shape": [
+                2399,
+                10
+            ],
+            "probabilities_finite": true,
+            "probabilities_normalized": true,
+            "prediction_argmax_match": true,
+            "aggregate_metrics_calculated": false
+        },
+        {
+            "training_mode": "baseline",
+            "model_name": "VGG16",
+            "sample_count": 2399,
+            "input_size": 224,
+            "batch_size": 16,
+            "elapsed_seconds": 22.848789900002885,
+            "prediction_csv": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\vgg16_test_predictions.csv",
+            "prediction_csv_sha256": "ee05ac79ab5eacbf6fff12a44a0e7beedc826d6b35c3d4b8f0893908d21b7d51",
+            "arrays_npz": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\vgg16_test_arrays.npz",
+            "arrays_npz_sha256": "9ef7034975f8f4cb88d4d59f1e1ace81e0b6a048408489ea8d747f4e36cf05b6",
+            "metadata_json": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\vgg16_test_metadata.json",
+            "metadata_json_sha256": "9071646165b3c443c660ca79cc666b09ad35acb5ee69946067c5ec08216bf8bd",
+            "probability_shape": [
+                2399,
+                10
+            ],
+            "probabilities_finite": true,
+            "probabilities_normalized": true,
+            "prediction_argmax_match": true,
+            "aggregate_metrics_calculated": false
+        },
+        {
+            "training_mode": "baseline",
+            "model_name": "InceptionNet",
+            "sample_count": 2399,
+            "input_size": 299,
+            "batch_size": 16,
+            "elapsed_seconds": 16.760905000002822,
+            "prediction_csv": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\inceptionnet_test_predictions.csv",
+            "prediction_csv_sha256": "f47755eabdcf5fc87ed4ef512564d725258af6ae78d705e3b835022e5222d338",
+            "arrays_npz": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\inceptionnet_test_arrays.npz",
+            "arrays_npz_sha256": "136fdd4cedbdc5d9a84fc321162a684f0280000eb8e3a8689060082ae0d10f33",
+            "metadata_json": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\inceptionnet_test_metadata.json",
+            "metadata_json_sha256": "018f5585c0202024f61f92e3dd1938b43a4477b383b346cd62d2411a83a663eb",
+            "probability_shape": [
+                2399,
+                10
+            ],
+            "probabilities_finite": true,
+            "probabilities_normalized": true,
+            "prediction_argmax_match": true,
+            "aggregate_metrics_calculated": false
+        }
+    ]
+}

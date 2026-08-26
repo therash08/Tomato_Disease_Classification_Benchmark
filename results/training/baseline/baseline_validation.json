@@ -1,0 +1,17 @@
+{
+    "expected_model_count": 6,
+    "verified_model_count": 6,
+    "exact_expected_model_set": true,
+    "all_models_unique": true,
+    "all_checkpoints_verified": true,
+    "all_effective_batch_size_32": true,
+    "all_best_validation_losses_finite": true,
+    "all_validation_accuracies_valid": true,
+    "all_test_partitions_untouched": true,
+    "baseline_augmentation_enabled": false,
+    "baseline_training_loss": "Unweighted CrossEntropyLoss",
+    "common_validation_loss": "Unweighted CrossEntropyLoss",
+    "selection_metric": "validation_loss",
+    "selection_rule": "lowest_validation_loss",
+    "baseline_lock_ready": true
+}

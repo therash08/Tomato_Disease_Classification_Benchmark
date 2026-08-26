@@ -1,0 +1,16 @@
+{
+    "training_mode": "improved",
+    "model_name": "VGG16",
+    "checkpoint_path": "D:\\Tomato_Disease_Research\\checkpoints\\improved\\VGG16_best.pth",
+    "checkpoint_sha256": "08567ba914bc05d80c0b3c176038a68b17ffb272efaf2434770440c322b2307c",
+    "test_membership_sha256": "a6cc66f6e6829d56a10d5daa91efd8bdcfdcba35480024304d273564ead80b20",
+    "class_mapping_sha256": "1ada3c6fcf400fd16cba991fccb1f172c5ed75d6e6f782a0a5812fcd6e254673",
+    "sample_count": 2399,
+    "class_count": 10,
+    "input_size": 224,
+    "batch_size": 16,
+    "inference_precision": "FP32",
+    "aggregate_metrics_calculated": false,
+    "prediction_csv": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\improved\\vgg16_test_predictions.csv",
+    "arrays_npz": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\improved\\vgg16_test_arrays.npz"
+}

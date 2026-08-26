@@ -1,0 +1,80 @@
+{
+    "number_of_models": 6,
+    "number_of_classes": 10,
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+    "gpu_vram_gb": 5.99951171875,
+    "standard_input_size": 224,
+    "inception_input_size": 299,
+    "inception_resize_size": 342,
+    "inception_aux_classifier": false,
+    "inception_baseline_loader_batch_size": 16,
+    "models": {
+        "ResNet50": {
+            "architecture": "torchvision.models.resnet50",
+            "pretrained_weights": "ResNet50_Weights.IMAGENET1K_V2",
+            "input_size": 224,
+            "output_classes": 10,
+            "total_parameters": 23528522,
+            "trainable_parameters": 23528522,
+            "expected_parameters": 23528522,
+            "cuda_forward_verified": true,
+            "peak_cuda_memory_mb": 101.3212890625
+        },
+        "MobileNet": {
+            "architecture": "torchvision.models.mobilenet_v3_large",
+            "pretrained_weights": "MobileNet_V3_Large_Weights.IMAGENET1K_V2",
+            "input_size": 224,
+            "output_classes": 10,
+            "total_parameters": 4214842,
+            "trainable_parameters": 4214842,
+            "expected_parameters": 4214842,
+            "cuda_forward_verified": true,
+            "peak_cuda_memory_mb": 32.90576171875
+        },
+        "EfficientNet-B0": {
+            "architecture": "torchvision.models.efficientnet_b0",
+            "pretrained_weights": "EfficientNet_B0_Weights.IMAGENET1K_V1",
+            "input_size": 224,
+            "output_classes": 10,
+            "total_parameters": 4020358,
+            "trainable_parameters": 4020358,
+            "expected_parameters": 4020358,
+            "cuda_forward_verified": true,
+            "peak_cuda_memory_mb": 34.22998046875
+        },
+        "ConvNeXt-Tiny": {
+            "architecture": "torchvision.models.convnext_tiny",
+            "pretrained_weights": "ConvNeXt_Tiny_Weights.IMAGENET1K_V1",
+            "input_size": 224,
+            "output_classes": 10,
+            "total_parameters": 27827818,
+            "trainable_parameters": 27827818,
+            "expected_parameters": 27827818,
+            "cuda_forward_verified": true,
+            "peak_cuda_memory_mb": 128.67919921875
+        },
+        "VGG16": {
+            "architecture": "torchvision.models.vgg16",
+            "pretrained_weights": "VGG16_Weights.IMAGENET1K_V1",
+            "input_size": 224,
+            "output_classes": 10,
+            "total_parameters": 134301514,
+            "trainable_parameters": 134301514,
+            "expected_parameters": 134301514,
+            "cuda_forward_verified": true,
+            "peak_cuda_memory_mb": 546.54052734375
+        },
+        "InceptionNet": {
+            "architecture": "torchvision.models.inception_v3",
+            "pretrained_weights": "Inception_V3_Weights.IMAGENET1K_V1",
+            "input_size": 299,
+            "output_classes": 10,
+            "total_parameters": 21806058,
+            "trainable_parameters": 21806058,
+            "expected_parameters": 21806058,
+            "cuda_forward_verified": true,
+            "peak_cuda_memory_mb": 108.16845703125
+        }
+    }
+}

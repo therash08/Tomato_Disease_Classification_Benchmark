@@ -1,0 +1,16 @@
+{
+    "number_of_models": 6,
+    "planned_training_modes": 2,
+    "planned_total_training_runs": 12,
+    "cuda_available": true,
+    "all_gpu_profiles_safe": true,
+    "effective_batch_32_for_all_models": true,
+    "baseline_augmentation_disabled": true,
+    "improved_augmentation_enabled": true,
+    "validation_augmentation_disabled": true,
+    "same_seeded_sampler_order": true,
+    "test_partition_accessed": false,
+    "common_unweighted_validation_loss": true,
+    "max_epochs": 30,
+    "early_stopping_patience": 7
+}

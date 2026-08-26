@@ -1,0 +1,29 @@
+{
+    "input_source_resolution": [
+        256,
+        256
+    ],
+    "model_input_resolution": [
+        224,
+        224
+    ],
+    "color_mode": "RGB",
+    "resize_interpolation": "bilinear",
+    "antialias": true,
+    "tensor_scaling": "uint8_[0,255]_to_float32_[0,1]",
+    "normalization": "ImageNet",
+    "imagenet_mean": [
+        0.485,
+        0.456,
+        0.406
+    ],
+    "imagenet_std": [
+        0.229,
+        0.224,
+        0.225
+    ],
+    "augmentation_in_part10": false,
+    "validation_transform_random": false,
+    "test_transform_random": false,
+    "common_preprocessing_protocol": true
+}

@@ -1,0 +1,43 @@
+{
+    "clean_dataset_images": 15997,
+    "number_of_classes": 10,
+    "seed": 42,
+    "split_strategy": "pHash-connected-group-aware stratified 70-15-15 split",
+    "target_ratios": {
+        "train": 0.7,
+        "validation": 0.15,
+        "test": 0.15
+    },
+    "actual_counts": {
+        "train": 11199,
+        "validation": 2399,
+        "test": 2399
+    },
+    "actual_ratios": {
+        "train": 0.7000687628930424,
+        "validation": 0.14996561855347879,
+        "test": 0.14996561855347879
+    },
+    "phash": {
+        "algorithm": "64-bit DCT-based perceptual hash",
+        "hash_size": 8,
+        "high_frequency_factor": 4,
+        "hamming_threshold": 4,
+        "backend": "scipy.fft.dctn"
+    },
+    "total_image_groups": 15963,
+    "singleton_groups": 15929,
+    "near_duplicate_groups": 34,
+    "images_in_near_duplicate_groups": 68,
+    "largest_near_duplicate_group": 2,
+    "cross_class_groups": 6,
+    "cross_class_groups_action": "preserved_and_kept_within_single_split",
+    "groups_crossing_splits": 0,
+    "train_validation_overlap": 0,
+    "train_test_overlap": 0,
+    "validation_test_overlap": 0,
+    "maximum_overall_ratio_deviation": 6.87628930424733e-05,
+    "maximum_class_ratio_deviation": 0.00047732696897384574,
+    "ratio_tolerance": 0.03,
+    "reproducibility_verified": true
+}

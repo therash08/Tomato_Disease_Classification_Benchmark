@@ -1,0 +1,17 @@
+================================================================================
+PYTHON ENVIRONMENT
+================================================================================
+Python: c:\Program Files\Python312\python.exe
+
+================================================================================
+INCEPTIONNET RESUME CHECK
+================================================================================
+p16b_train_one_model                   AVAILABLE
+p15_build_dataloaders                  AVAILABLE
+p15_reset_seed                         AVAILABLE
+create_pretrained_model                AVAILABLE
+P15_MODEL_PROFILES                     AVAILABLE
+MODEL_NAMES                            AVAILABLE
+P16B_MAX_EPOCHS                        AVAILABLE
+P16B_EARLY_STOPPING_PATIENCE           AVAILABLE
+P16A_BASELINE_LOCKED                   AVAILABLE

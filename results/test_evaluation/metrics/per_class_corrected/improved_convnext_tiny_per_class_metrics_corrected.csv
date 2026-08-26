@@ -1,0 +1,11 @@
+class_index,class_name,support,precision,recall_sensitivity,specificity,f1,roc_auc_ovr,pr_auc_ovr
+0,Tomato_Bacterial_spot,319,1.0,1.0,1.0,1.0,1.0,1.0
+1,Tomato_Early_blight,150,1.0,0.9933333333333333,1.0,0.9966555183946488,0.9999911071587372,0.9998692810457519
+2,Tomato_Late_blight,285,0.9965034965034965,1.0,0.9995269631031221,0.9982486865148862,0.9999917011070724,0.9999382243144481
+3,Tomato_Leaf_Mold,143,1.0,1.0,1.0,1.0,1.0,0.9999999999999999
+4,Tomato_Septoria_leaf_spot,266,1.0,1.0,1.0,1.0,1.0,1.0000000000000002
+5,Tomato_Spider_mites_Two_spotted_spider_mite,251,1.0,1.0,1.0,1.0,1.0,0.9999999999999999
+6,Tomato__Target_Spot,210,1.0,1.0,1.0,1.0,1.0,0.9999999999999999
+7,Tomato__Tomato_YellowLeaf__Curl_Virus,481,1.0,1.0,1.0,1.0,1.0,1.0
+8,Tomato__Tomato_mosaic_virus,56,1.0,1.0,1.0,1.0,1.0,1.0000000000000002
+9,Tomato_healthy,238,1.0,1.0,1.0,1.0,1.0,0.9999999999999999

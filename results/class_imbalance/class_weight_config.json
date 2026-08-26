@@ -1,0 +1,25 @@
+{
+    "source_split": "train",
+    "training_images": 11199,
+    "number_of_classes": 10,
+    "formula": "N / (K * n_c)",
+    "weighted_cross_entropy": true,
+    "unweighted_cross_entropy_available": true,
+    "weighted_random_sampler": false,
+    "sampler_reason": "WeightedRandomSampler is not combined with weighted loss to avoid excessive minority-class compensation.",
+    "class_weighting_enabled": true,
+    "weight_tensor_dtype": "torch.float32",
+    "weight_tensor_device": "cuda:0",
+    "class_weights": {
+        "Tomato_Bacterial_spot": 0.7521155137676293,
+        "Tomato_Early_blight": 1.5998571428571429,
+        "Tomato_Late_blight": 0.8413974455296769,
+        "Tomato_Leaf_Mold": 1.6815315315315316,
+        "Tomato_Septoria_leaf_spot": 0.9031451612903226,
+        "Tomato_Spider_mites_Two_spotted_spider_mite": 0.9539182282793867,
+        "Tomato__Target_Spot": 1.139267548321465,
+        "Tomato__Tomato_YellowLeaf__Curl_Virus": 0.49861976847729295,
+        "Tomato__Tomato_mosaic_virus": 4.2908045977011495,
+        "Tomato_healthy": 1.0098286744815148
+    }
+}

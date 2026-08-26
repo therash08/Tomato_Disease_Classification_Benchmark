@@ -1,0 +1,32 @@
+{
+    "images_validated": 15997,
+    "expected_tensor_shape": [
+        3,
+        224,
+        224
+    ],
+    "observed_tensor_shapes": [
+        [
+            3,
+            224,
+            224
+        ]
+    ],
+    "observed_tensor_dtypes": [
+        "torch.float32"
+    ],
+    "invalid_shape_count": 0,
+    "invalid_dtype_count": 0,
+    "nonfinite_tensor_count": 0,
+    "observed_normalized_min": -2.1179039478302,
+    "observed_normalized_max": 2.640000104904175,
+    "theoretical_normalized_min": -2.1179039301310043,
+    "theoretical_normalized_max": 2.6399999999999997,
+    "determinism_sample_size": 30,
+    "determinism_failures": 0,
+    "split_counts": {
+        "train": 11199,
+        "validation": 2399,
+        "test": 2399
+    }
+}

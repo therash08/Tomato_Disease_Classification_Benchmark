@@ -1,0 +1,7 @@
+PART 17 COMPLETE
+
+Independent test evaluation completed and locked.
+Final Winner: IMPROVED ConvNeXt-Tiny
+Primary Metric: Macro F1
+Test Samples: 2399
+Test Membership SHA-256: a6cc66f6e6829d56a10d5daa91efd8bdcfdcba35480024304d273564ead80b20

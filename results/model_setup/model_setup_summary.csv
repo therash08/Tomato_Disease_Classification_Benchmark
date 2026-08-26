@@ -1,0 +1,7 @@
+model,torchvision_architecture,pretrained_weights,input_size,output_classes,total_parameters,trainable_parameters,output_shape,finite_output,peak_cuda_memory_mb
+ResNet50,torchvision.models.resnet50,ResNet50_Weights.IMAGENET1K_V2,224,10,23528522,23528522,"(1, 10)",True,101.3212890625
+MobileNet,torchvision.models.mobilenet_v3_large,MobileNet_V3_Large_Weights.IMAGENET1K_V2,224,10,4214842,4214842,"(1, 10)",True,32.90576171875
+EfficientNet-B0,torchvision.models.efficientnet_b0,EfficientNet_B0_Weights.IMAGENET1K_V1,224,10,4020358,4020358,"(1, 10)",True,34.22998046875
+ConvNeXt-Tiny,torchvision.models.convnext_tiny,ConvNeXt_Tiny_Weights.IMAGENET1K_V1,224,10,27827818,27827818,"(1, 10)",True,128.67919921875
+VGG16,torchvision.models.vgg16,VGG16_Weights.IMAGENET1K_V1,224,10,134301514,134301514,"(1, 10)",True,546.54052734375
+InceptionNet,torchvision.models.inception_v3,Inception_V3_Weights.IMAGENET1K_V1,299,10,21806058,21806058,"(1, 10)",True,108.16845703125

@@ -1,0 +1,80 @@
+{
+    "part": "PART 17.6",
+    "protocol_locked_before_metric_calculation": true,
+    "test_sample_count": 2399,
+    "class_count": 10,
+    "class_order": [
+        "Tomato_Bacterial_spot",
+        "Tomato_Early_blight",
+        "Tomato_Late_blight",
+        "Tomato_Leaf_Mold",
+        "Tomato_Septoria_leaf_spot",
+        "Tomato_Spider_mites_Two_spotted_spider_mite",
+        "Tomato__Target_Spot",
+        "Tomato__Tomato_YellowLeaf__Curl_Virus",
+        "Tomato__Tomato_mosaic_virus",
+        "Tomato_healthy"
+    ],
+    "primary_selection_metric": "macro_f1",
+    "ranking_hierarchy": [
+        {
+            "metric": "macro_f1",
+            "direction": "higher"
+        },
+        {
+            "metric": "balanced_accuracy",
+            "direction": "higher"
+        },
+        {
+            "metric": "accuracy",
+            "direction": "higher"
+        },
+        {
+            "metric": "test_log_loss",
+            "direction": "lower"
+        }
+    ],
+    "overall_metrics": [
+        "test_log_loss",
+        "accuracy",
+        "balanced_accuracy",
+        "macro_precision",
+        "macro_recall",
+        "macro_f1",
+        "weighted_precision",
+        "weighted_recall",
+        "weighted_f1",
+        "mcc",
+        "cohen_kappa",
+        "roc_auc_ovr_macro",
+        "roc_auc_ovr_weighted",
+        "pr_auc_macro",
+        "pr_auc_weighted"
+    ],
+    "per_class_metrics": [
+        "precision",
+        "recall_sensitivity",
+        "specificity",
+        "f1",
+        "support",
+        "roc_auc_ovr",
+        "pr_auc_ovr"
+    ],
+    "planned_statistical_analysis": {
+        "paired_test": "McNemar",
+        "comparison": "Baseline vs Improved within architecture",
+        "multiple_testing_correction": "Holm",
+        "number_of_paired_comparisons": 6,
+        "bootstrap_confidence_level": 0.95,
+        "bootstrap_resamples": 2000,
+        "bootstrap_sampling": "stratified",
+        "bootstrap_seed": 42,
+        "bootstrap_metrics": [
+            "macro_f1",
+            "accuracy"
+        ]
+    },
+    "model_ranking_performed_in_part_17_6": false,
+    "statistical_testing_performed_in_part_17_6": false,
+    "final_winner_declared_in_part_17_6": false
+}

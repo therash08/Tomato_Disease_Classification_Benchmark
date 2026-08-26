@@ -1,0 +1,60 @@
+{
+    "part": "PART 17",
+    "status": "COMPLETE",
+    "evaluation": "Independent test evaluation",
+    "test_sample_count": 2399,
+    "test_membership_sha256": "a6cc66f6e6829d56a10d5daa91efd8bdcfdcba35480024304d273564ead80b20",
+    "class_mapping_sha256": "1ada3c6fcf400fd16cba991fccb1f172c5ed75d6e6f782a0a5812fcd6e254673",
+    "model_architectures": [
+        "ResNet50",
+        "MobileNet",
+        "EfficientNet-B0",
+        "ConvNeXt-Tiny",
+        "VGG16",
+        "InceptionNet"
+    ],
+    "conditions": [
+        "baseline",
+        "improved"
+    ],
+    "total_model_condition_combinations": 12,
+    "primary_selection_metric": "macro_f1",
+    "ranking_hierarchy": [
+        "macro_f1 descending",
+        "balanced_accuracy descending",
+        "accuracy descending",
+        "test_log_loss ascending"
+    ],
+    "overall_winner": {
+        "training_mode": "improved",
+        "model_name": "ConvNeXt-Tiny",
+        "macro_f1": 0.9994904204909535,
+        "balanced_accuracy": 0.9993333333333332,
+        "accuracy": 0.9995831596498541,
+        "test_log_loss": 0.004070354134172602,
+        "mcc": 0.9995260996801574
+    },
+    "best_baseline": {
+        "model_name": "ConvNeXt-Tiny",
+        "macro_f1": 0.9973310338356857,
+        "accuracy": 0.9979157982492706
+    },
+    "best_improved": {
+        "model_name": "ConvNeXt-Tiny",
+        "macro_f1": 0.9994904204909535,
+        "accuracy": 0.9995831596498541
+    },
+    "inceptionnet_parity_correction": {
+        "required": true,
+        "transform_input": true,
+        "selection_basis": "locked validation parity",
+        "test_performance_used_for_correction_selection": false
+    },
+    "mcnemar_comparisons": 6,
+    "holm_correction": true,
+    "bootstrap_resamples": 2000,
+    "bootstrap_seed": 42,
+    "training_performed_in_part17": false,
+    "final_ranking_performed": true,
+    "final_winner_declared": true
+}

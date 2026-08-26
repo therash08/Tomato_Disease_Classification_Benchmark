@@ -1,0 +1,16 @@
+{
+    "training_mode": "baseline",
+    "model_name": "ResNet50",
+    "checkpoint_path": "D:\\Tomato_Disease_Research\\checkpoints\\baseline\\ResNet50_best.pth",
+    "checkpoint_sha256": "2d7b272ac31b109475ac9443ab5812b9f6864355b34015565d70dba5b59d843b",
+    "test_membership_sha256": "a6cc66f6e6829d56a10d5daa91efd8bdcfdcba35480024304d273564ead80b20",
+    "class_mapping_sha256": "1ada3c6fcf400fd16cba991fccb1f172c5ed75d6e6f782a0a5812fcd6e254673",
+    "sample_count": 2399,
+    "class_count": 10,
+    "input_size": 224,
+    "batch_size": 32,
+    "inference_precision": "FP32",
+    "aggregate_metrics_calculated": false,
+    "prediction_csv": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\resnet50_test_predictions.csv",
+    "arrays_npz": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\predictions\\baseline\\resnet50_test_arrays.npz"
+}

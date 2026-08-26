@@ -1,0 +1,30 @@
+{
+    "training_images_validated": 11199,
+    "validation_images": 2399,
+    "test_images": 2399,
+    "expected_tensor_shape": [
+        3,
+        224,
+        224
+    ],
+    "observed_tensor_shapes": [
+        [
+            3,
+            224,
+            224
+        ]
+    ],
+    "observed_dtypes": [
+        "torch.float32"
+    ],
+    "invalid_shape_count": 0,
+    "invalid_dtype_count": 0,
+    "nonfinite_tensor_count": 0,
+    "observed_normalized_min": -2.1179039478302,
+    "observed_normalized_max": 2.640000104904175,
+    "stochasticity_sample_size": 30,
+    "stochastic_output_differences": 30,
+    "fixed_seed_reproducibility_failures": 0,
+    "validation_determinism_failures": 0,
+    "test_determinism_failures": 0
+}

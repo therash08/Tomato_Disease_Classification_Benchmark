@@ -1,0 +1,7 @@
+near_duplicate_group,image_count,class_count,split_count,assigned_split,minimum_cross_class_hamming_distance,maximum_cross_class_hamming_distance
+NDG_000417,2,2,1,train,4,4
+NDG_001228,2,2,1,train,4,4
+NDG_003329,2,2,1,test,4,4
+NDG_005208,2,2,1,train,4,4
+NDG_006186,2,2,1,validation,4,4
+NDG_009850,2,2,1,train,4,4

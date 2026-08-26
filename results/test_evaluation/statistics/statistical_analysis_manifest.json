@@ -1,0 +1,22 @@
+{
+    "part": "PART 17.7",
+    "comparison": "Baseline vs Improved within architecture",
+    "architecture_count": 6,
+    "paired_sample_count": 2399,
+    "mcnemar_test": "exact two-sided",
+    "multiple_testing_correction": "Holm",
+    "alpha": 0.05,
+    "bootstrap_method": "paired stratified percentile bootstrap",
+    "bootstrap_resamples": 2000,
+    "bootstrap_seed": 42,
+    "bootstrap_confidence_level": 0.95,
+    "comparison_csv": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\statistics\\baseline_vs_improved_test_comparison.csv",
+    "comparison_csv_sha256": "eed1f8b6ecb64020790781ac15cdd6227e5c36e5f6b0a82481bad7ea85c7f8c2",
+    "comparison_json": "D:\\Tomato_Disease_Research\\results\\test_evaluation\\statistics\\baseline_vs_improved_test_comparison.json",
+    "comparison_json_sha256": "5425bca564a9ab71fc16e5a4faee852de7628c3c21f7dedd461664ace85d4c90",
+    "test_membership_sha256": "a6cc66f6e6829d56a10d5daa91efd8bdcfdcba35480024304d273564ead80b20",
+    "corrected_metrics_used": true,
+    "model_inference_performed": false,
+    "model_ranking_performed": false,
+    "final_winner_declared": false
+}
