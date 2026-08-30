@@ -1,0 +1,11 @@
+class_index,class_name,external_true_support,prediction_count,prediction_rate,external_gt_supported
+0,Tomato_Bacterial_spot,9,2,0.02531645569620253,True
+1,Tomato_Early_blight,9,15,0.189873417721519,True
+2,Tomato_Late_blight,10,33,0.4177215189873418,True
+3,Tomato_Leaf_Mold,6,6,0.0759493670886076,True
+4,Tomato_Septoria_leaf_spot,12,13,0.16455696202531644,True
+5,Tomato_Spider_mites_Two_spotted_spider_mite,0,0,0.0,False
+6,Tomato__Target_Spot,0,0,0.0,False
+7,Tomato__Tomato_YellowLeaf__Curl_Virus,15,9,0.11392405063291139,True
+8,Tomato__Tomato_mosaic_virus,10,0,0.0,True
+9,Tomato_healthy,8,1,0.012658227848101266,True

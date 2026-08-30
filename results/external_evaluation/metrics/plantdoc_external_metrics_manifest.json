@@ -1,0 +1,25 @@
+{
+    "model": "ConvNeXt-Tiny",
+    "training_condition": "improved",
+    "external_dataset": "PlantDoc tomato subset",
+    "samples": 79,
+    "supported_ground_truth_classes": 8,
+    "model_output_classes": 10,
+    "raw_prediction_manifest_sha256": "b3e1066775a340d15eb8f7d24a15628e411a2591675b7fc50ad0d846ed1bfe3e",
+    "metric_protocol_sha256": "dc5231aca6301b3bf79b85283ecce10e5d62c0d560a67a129bd79ce2ea9ee0da",
+    "probabilities_normalized_for_metrics_only": true,
+    "raw_prediction_artifacts_modified": false,
+    "prediction_argmax_changed": false,
+    "metric_probability_max_sum_deviation": 2.220446049250313e-16,
+    "metrics_verified": true,
+    "training_performed": false,
+    "fine_tuning_performed": false,
+    "new_model_inference_performed": false,
+    "artifact_sha256": {
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\metrics\\plantdoc_external_overall_metrics.csv": "1a5ec64493fb1c119e8a9a5e718ab53e3fc72ec8c2b57c9ab1f9903a46b2a309",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\metrics\\plantdoc_external_overall_metrics.json": "2cf297c23f30380c8392ead126899e6ada154b1a1874397b20a1b8605ffde43a",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\metrics\\plantdoc_external_per_class_metrics.csv": "fd893ae44be7bba6686f10f881c0de8882f65382fbdbd4876d31c99835a2b99a",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\metrics\\plantdoc_external_confusion_matrix_10x10.csv": "1fceacf3e89d8169ce7e0a74e470b66089c271713f572c1f289af67c8850c290",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\metrics\\plantdoc_external_confusion_matrix_normalized_10x10.csv": "74b69e0d5b7ffd84b7f77bc83bf5ed8b0529c8b3ef622eb9ba23cdb602c56cd8"
+    }
+}

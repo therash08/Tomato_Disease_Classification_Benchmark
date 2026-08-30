@@ -1,0 +1,12 @@
+﻿Metric,Value
+PC1 Explained Variance (%),19.40402603149414
+PC2 Explained Variance (%),15.47070598602295
+PC1+PC2 Cumulative Variance (%),34.87473201751709
+PC1 Domain Shift Cohen's d,0.13925055938439268
+PC2 Domain Shift Cohen's d,-0.720302888891813
+2D PCA Centroid Distance,7.265803813934326
+768-D Embedding Centroid Distance,12.172607421875
+PlantVillage PC1 Mean,-0.04937482252717018
+PlantDoc PC1 Mean,1.4993757009506226
+PlantVillage PC2 Mean,0.22631382942199707
+PlantDoc PC2 Mean,-6.872511386871338

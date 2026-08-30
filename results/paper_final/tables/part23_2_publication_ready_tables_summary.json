@@ -1,0 +1,32 @@
+{
+    "part": "23.2",
+    "analysis": "Publication-ready final manuscript tables",
+    "model": "Improved ConvNeXt-Tiny",
+    "source_registry_manifest_sha256": "1e1b58a67562e3641e94152331dc25115e4d1cf5ded440bced508e74ee83d6ba",
+    "column_resolver_bug": {
+        "root_cause": "Substring matching caused forbidden token 'mode' to falsely match column 'model_name'.",
+        "original_failure_reproduced": true,
+        "fix": "token_aware_identifier_resolution",
+        "green_tests_passed": true
+    },
+    "main_table_count": 5,
+    "table_1_rows": 12,
+    "table_2_metric_rows": 10,
+    "table_3_shared_classes": 8,
+    "table_4_calibration_metrics": 5,
+    "table_5_xai_findings": 14,
+    "output_formats": [
+        "CSV",
+        "Markdown",
+        "LaTeX"
+    ],
+    "new_model_inference": false,
+    "new_performance_estimation": false,
+    "new_statistical_testing": false,
+    "new_gradcam_generation": false,
+    "new_semantic_annotation": false,
+    "training": false,
+    "fine_tuning": false,
+    "parameter_updates": false,
+    "ready_for_part23_3": true
+}

@@ -1,0 +1,33 @@
+{
+    "part": "20.3",
+    "analysis": "confidence_and_calibration_domain_shift",
+    "model": "Improved ConvNeXt-Tiny",
+    "internal_full_samples": 2399,
+    "internal_shared8_samples": 1938,
+    "external_samples": 79,
+    "probability_output_classes": 10,
+    "shared_gt_classes": 8,
+    "internal_prediction_fingerprint": "605d183c4e5acb5e20da6088aa12620947e62730ffaf46db7adf89a7edcfd6d1",
+    "part20_2_manifest_sha256": "c109f1db516efa2710342330444fff617248862c1691ce0ad1bc89498f24705f",
+    "part19_raw_prediction_manifest_sha256": "b3e1066775a340d15eb8f7d24a15628e411a2591675b7fc50ad0d846ed1bfe3e",
+    "external_part19_confidence_reproduced": true,
+    "same_calibration_protocol": true,
+    "calibration_bins": 10,
+    "high_confidence_threshold": 0.9,
+    "very_high_confidence_threshold": 0.95,
+    "low_confidence_threshold": 0.7,
+    "new_inference_performed": false,
+    "training_performed": false,
+    "fine_tuning_performed": false,
+    "temperature_scaling_performed": false,
+    "artifact_sha256": {
+        "D:\\Tomato_Disease_Research\\results\\domain_generalization\\confidence_calibration\\internal_external_calibration_summary.csv": "261b0d69f60dac31f869e92c965f07a5a96f82d75cd27ea999318a13e5521502",
+        "D:\\Tomato_Disease_Research\\results\\domain_generalization\\confidence_calibration\\shared8_confidence_calibration_shift.csv": "492ccbafe456e962be07f7d8bec5d32618f53a28570106cc266f5df0b22ff82c",
+        "D:\\Tomato_Disease_Research\\results\\domain_generalization\\confidence_calibration\\shared8_confidence_distribution.csv": "db115d6afab1a20f63e447d823936dd7a0cf8145617f3cec20b5ab366c7f2840",
+        "D:\\Tomato_Disease_Research\\results\\domain_generalization\\confidence_calibration\\high_confidence_error_comparison.csv": "d2bdc87529ca272efdd7e73dea47b638ef7c46bc404499aa7409e299ce0834e9",
+        "D:\\Tomato_Disease_Research\\results\\domain_generalization\\confidence_calibration\\internal_full_calibration_bins.csv": "e01e10f95244c59421b5b93fc253bf24c61e3618b659e791bc7f7304798ebd72",
+        "D:\\Tomato_Disease_Research\\results\\domain_generalization\\confidence_calibration\\internal_shared8_calibration_bins.csv": "1ae97d295677b17ed106bd81faa3d3deac4f2c19b0266246e76589c779204049",
+        "D:\\Tomato_Disease_Research\\results\\domain_generalization\\confidence_calibration\\external_calibration_bins.csv": "585c3629ec1c30c38ac99f5306c1486861c8bcf7ec5b30ea1ae0c582d4db1370",
+        "D:\\Tomato_Disease_Research\\results\\domain_generalization\\confidence_calibration\\part20_3_confidence_calibration_summary.json": "01ef04199fafe39863a803f3072a351f8e22a9e10df3c8a37b059b2b869c6724"
+    }
+}

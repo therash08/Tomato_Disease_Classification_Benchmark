@@ -1,0 +1,1 @@
+Supplementary Figure S4. One-versus-rest precision-recall curves for the frozen Improved ConvNeXt-Tiny on PlantDoc. The external macro PR-AUC was 0.4672. Precision-recall analysis complements ROC-AUC by emphasizing positive-class retrieval under the external class distribution.

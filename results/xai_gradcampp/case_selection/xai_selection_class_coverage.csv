@@ -1,0 +1,17 @@
+domain,true_class_index,true_class_name,selected_unique_cases,selected_correct_cases,selected_incorrect_cases
+internal,0,Tomato_Bacterial_spot,1,1,0
+internal,1,Tomato_Early_blight,2,1,1
+internal,2,Tomato_Late_blight,2,2,0
+internal,3,Tomato_Leaf_Mold,1,1,0
+internal,4,Tomato_Septoria_leaf_spot,3,3,0
+internal,7,Tomato__Tomato_YellowLeaf__Curl_Virus,1,1,0
+internal,8,Tomato__Tomato_mosaic_virus,1,1,0
+internal,9,Tomato_healthy,1,1,0
+external,0,Tomato_Bacterial_spot,2,0,2
+external,1,Tomato_Early_blight,5,3,2
+external,2,Tomato_Late_blight,5,3,2
+external,3,Tomato_Leaf_Mold,2,1,1
+external,4,Tomato_Septoria_leaf_spot,4,2,2
+external,7,Tomato__Tomato_YellowLeaf__Curl_Virus,5,1,4
+external,8,Tomato__Tomato_mosaic_virus,2,0,2
+external,9,Tomato_healthy,3,1,2

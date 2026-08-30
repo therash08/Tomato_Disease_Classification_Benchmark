@@ -1,0 +1,101 @@
+PART 21 — EXPLAINABLE AI USING GRAD-CAM++ COMPLETE
+
+Final Frozen Model:
+Improved ConvNeXt-Tiny
+
+Target Layer:
+features.7.2
+
+Target Activation:
+1 x 768 x 7 x 7
+
+DETERMINISTIC XAI COHORT
+------------------------
+Selected Cases:
+40
+
+Internal Cases:
+12
+
+External Cases:
+28
+
+Correct Cases:
+22
+
+Incorrect Cases:
+18
+
+GRAD-CAM++ MAPS
+----------------
+Primary Predicted-Class CAMs:
+40
+
+Secondary True-Class CAMs:
+18
+
+Total CAMs:
+58
+
+Degenerate CAMs:
+0
+
+Prediction Replay:
+40/40 PASS
+
+WRONG-CASE ATTENTION COMPARISON
+-------------------------------
+Wrong Cases with Predicted-vs-True CAM Pairs:
+18
+
+Mean Cosine Similarity:
+0.309122
+
+Mean Pearson Correlation:
+0.000245
+
+Mean Weighted Overlap:
+0.274003
+
+Median Weighted Overlap:
+0.287742
+
+Mean Normalized Attention-Center Distance:
+0.182871
+
+RESEARCH INTEGRITY
+------------------
+Case Selection:
+Deterministic and locked before real-image Grad-CAM++ generation
+
+Model State:
+Unchanged
+
+New Model Inference in PART 21.4:
+NO
+
+Training:
+NO
+
+Fine-Tuning:
+NO
+
+Parameter Updates:
+NO
+
+Semantic Disease-Region Interpretation:
+NOT YET PERFORMED
+
+Background-Bias Interpretation:
+NOT YET PERFORMED
+
+Important:
+The selected XAI cohort is intentionally stratified.
+Cohort-level statistics are descriptive and are not unbiased
+population-level estimates.
+
+Final PART 21 Integrity Lock SHA-256:
+3c3ea772b7c65154a268606364efb1969790b24624646197be0c03d5bd607702
+
+Next:
+PART 22 — XAI Interpretation

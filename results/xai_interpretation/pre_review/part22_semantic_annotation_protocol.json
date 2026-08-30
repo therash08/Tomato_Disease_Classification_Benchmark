@@ -1,0 +1,121 @@
+{
+    "part": "22.1",
+    "analysis": "Structured semantic Grad-CAM++ interpretation",
+    "model": "Improved ConvNeXt-Tiny",
+    "source_xai_part": "PART 21",
+    "selected_case_count": 40,
+    "primary_predicted_class_cams": 40,
+    "secondary_true_class_cams": 18,
+    "total_cam_annotation_units": 58,
+    "case_level_fields": {
+        "leaf_visibility": [
+            "UNREVIEWED",
+            "CLEAR",
+            "PARTIAL",
+            "POOR",
+            "UNCERTAIN"
+        ],
+        "symptom_visibility": [
+            "UNREVIEWED",
+            "CLEAR",
+            "SUBTLE",
+            "NONE",
+            "UNCERTAIN"
+        ],
+        "background_complexity": [
+            "UNREVIEWED",
+            "LOW",
+            "MODERATE",
+            "HIGH",
+            "UNCERTAIN"
+        ],
+        "multiple_leaves_or_objects": [
+            "UNREVIEWED",
+            "YES",
+            "NO",
+            "UNCERTAIN"
+        ]
+    },
+    "cam_level_fields": {
+        "attention_semantic_region": [
+            "UNREVIEWED",
+            "SYMPTOM_REGION",
+            "NON_SYMPTOM_LEAF",
+            "LEAF_AND_BACKGROUND",
+            "BACKGROUND",
+            "NON_LEAF_OBJECT",
+            "DIFFUSE_UNCLEAR",
+            "UNCERTAIN"
+        ],
+        "disease_region_alignment": [
+            "UNREVIEWED",
+            "STRONG",
+            "PARTIAL",
+            "WEAK",
+            "NONE",
+            "NOT_APPLICABLE",
+            "UNCERTAIN"
+        ],
+        "background_bias": [
+            "UNREVIEWED",
+            "NONE",
+            "MINOR",
+            "MODERATE",
+            "DOMINANT",
+            "UNCERTAIN"
+        ],
+        "attention_focus": [
+            "UNREVIEWED",
+            "FOCAL",
+            "MULTIFOCAL",
+            "DIFFUSE",
+            "UNCERTAIN"
+        ],
+        "annotation_confidence": [
+            "UNREVIEWED",
+            "HIGH",
+            "MEDIUM",
+            "LOW"
+        ]
+    },
+    "disease_region_alignment_definition": {
+        "STRONG": "The dominant/high-intensity Grad-CAM region substantially overlaps the visible disease symptom region.",
+        "PARTIAL": "Attention overlaps the visible symptom region but substantial attention is also directed elsewhere.",
+        "WEAK": "Only a small portion of attention overlaps visible disease symptoms.",
+        "NONE": "Visible symptoms are present but the dominant attention does not overlap them.",
+        "NOT_APPLICABLE": "Used when disease-region alignment is not meaningful, for example a visually healthy case.",
+        "UNCERTAIN": "Image/CAM does not permit reliable judgement."
+    },
+    "background_bias_definition": {
+        "NONE": "Attention is essentially confined to leaf or relevant plant tissue.",
+        "MINOR": "Small background attention exists but the dominant region remains leaf/symptom related.",
+        "MODERATE": "Meaningful attention is split between leaf and background.",
+        "DOMINANT": "The strongest attention is primarily outside relevant leaf/plant tissue.",
+        "UNCERTAIN": "Background-bias strength cannot be reliably determined."
+    },
+    "attention_semantic_region_definition": {
+        "SYMPTOM_REGION": "Dominant attention lies on visible disease symptoms.",
+        "NON_SYMPTOM_LEAF": "Dominant attention lies on leaf tissue without obvious disease symptoms.",
+        "LEAF_AND_BACKGROUND": "Substantial attention covers both plant tissue and image background.",
+        "BACKGROUND": "Dominant attention is outside relevant plant tissue.",
+        "NON_LEAF_OBJECT": "Dominant attention is on another visible object rather than relevant leaf tissue.",
+        "DIFFUSE_UNCLEAR": "Attention is broad/diffuse and cannot be assigned to a single meaningful semantic region.",
+        "UNCERTAIN": "Reliable semantic localization is not possible."
+    },
+    "annotation_unit_policy": {
+        "correct_case_primary_cam": "Primary predicted-class CAM is also the correct-class CAM.",
+        "wrong_case_primary_cam": "Primary CAM explains the erroneous predicted class.",
+        "wrong_case_secondary_cam": "Secondary CAM targets the ground-truth class and is reviewed separately."
+    },
+    "important_constraints": [
+        "Grad-CAM++ is post-hoc explanatory evidence and does not prove causal clinical reasoning.",
+        "No lesion segmentation ground truth is available.",
+        "Semantic disease-region localization must be visually reviewed.",
+        "The XAI cohort was deterministically stratified and is not an unbiased population sample.",
+        "No semantic conclusion is produced before the annotation template is completed."
+    ],
+    "new_model_inference": false,
+    "training": false,
+    "fine_tuning": false,
+    "parameter_update": false
+}

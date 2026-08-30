@@ -1,0 +1,50 @@
+annotation_level,field,allowed_value,purpose
+CASE,leaf_visibility,UNREVIEWED,How clearly relevant leaf/plant tissue is visible.
+CASE,leaf_visibility,CLEAR,How clearly relevant leaf/plant tissue is visible.
+CASE,leaf_visibility,PARTIAL,How clearly relevant leaf/plant tissue is visible.
+CASE,leaf_visibility,POOR,How clearly relevant leaf/plant tissue is visible.
+CASE,leaf_visibility,UNCERTAIN,How clearly relevant leaf/plant tissue is visible.
+CASE,symptom_visibility,UNREVIEWED,How clearly disease symptoms are visually identifiable.
+CASE,symptom_visibility,CLEAR,How clearly disease symptoms are visually identifiable.
+CASE,symptom_visibility,SUBTLE,How clearly disease symptoms are visually identifiable.
+CASE,symptom_visibility,NONE,How clearly disease symptoms are visually identifiable.
+CASE,symptom_visibility,UNCERTAIN,How clearly disease symptoms are visually identifiable.
+CASE,background_complexity,UNREVIEWED,Amount of visual clutter/context outside relevant plant tissue.
+CASE,background_complexity,LOW,Amount of visual clutter/context outside relevant plant tissue.
+CASE,background_complexity,MODERATE,Amount of visual clutter/context outside relevant plant tissue.
+CASE,background_complexity,HIGH,Amount of visual clutter/context outside relevant plant tissue.
+CASE,background_complexity,UNCERTAIN,Amount of visual clutter/context outside relevant plant tissue.
+CASE,multiple_leaves_or_objects,UNREVIEWED,Whether multiple leaves or competing visible objects are present.
+CASE,multiple_leaves_or_objects,YES,Whether multiple leaves or competing visible objects are present.
+CASE,multiple_leaves_or_objects,NO,Whether multiple leaves or competing visible objects are present.
+CASE,multiple_leaves_or_objects,UNCERTAIN,Whether multiple leaves or competing visible objects are present.
+CAM,attention_semantic_region,UNREVIEWED,Dominant semantic region receiving Grad-CAM++ attention.
+CAM,attention_semantic_region,SYMPTOM_REGION,Dominant semantic region receiving Grad-CAM++ attention.
+CAM,attention_semantic_region,NON_SYMPTOM_LEAF,Dominant semantic region receiving Grad-CAM++ attention.
+CAM,attention_semantic_region,LEAF_AND_BACKGROUND,Dominant semantic region receiving Grad-CAM++ attention.
+CAM,attention_semantic_region,BACKGROUND,Dominant semantic region receiving Grad-CAM++ attention.
+CAM,attention_semantic_region,NON_LEAF_OBJECT,Dominant semantic region receiving Grad-CAM++ attention.
+CAM,attention_semantic_region,DIFFUSE_UNCLEAR,Dominant semantic region receiving Grad-CAM++ attention.
+CAM,attention_semantic_region,UNCERTAIN,Dominant semantic region receiving Grad-CAM++ attention.
+CAM,disease_region_alignment,UNREVIEWED,Visual alignment between Grad-CAM++ and visible symptoms.
+CAM,disease_region_alignment,STRONG,Visual alignment between Grad-CAM++ and visible symptoms.
+CAM,disease_region_alignment,PARTIAL,Visual alignment between Grad-CAM++ and visible symptoms.
+CAM,disease_region_alignment,WEAK,Visual alignment between Grad-CAM++ and visible symptoms.
+CAM,disease_region_alignment,NONE,Visual alignment between Grad-CAM++ and visible symptoms.
+CAM,disease_region_alignment,NOT_APPLICABLE,Visual alignment between Grad-CAM++ and visible symptoms.
+CAM,disease_region_alignment,UNCERTAIN,Visual alignment between Grad-CAM++ and visible symptoms.
+CAM,background_bias,UNREVIEWED,Strength of attention directed outside relevant plant tissue.
+CAM,background_bias,NONE,Strength of attention directed outside relevant plant tissue.
+CAM,background_bias,MINOR,Strength of attention directed outside relevant plant tissue.
+CAM,background_bias,MODERATE,Strength of attention directed outside relevant plant tissue.
+CAM,background_bias,DOMINANT,Strength of attention directed outside relevant plant tissue.
+CAM,background_bias,UNCERTAIN,Strength of attention directed outside relevant plant tissue.
+CAM,attention_focus,UNREVIEWED,Spatial pattern of the attention map.
+CAM,attention_focus,FOCAL,Spatial pattern of the attention map.
+CAM,attention_focus,MULTIFOCAL,Spatial pattern of the attention map.
+CAM,attention_focus,DIFFUSE,Spatial pattern of the attention map.
+CAM,attention_focus,UNCERTAIN,Spatial pattern of the attention map.
+CAM,annotation_confidence,UNREVIEWED,Confidence of the human semantic judgement.
+CAM,annotation_confidence,HIGH,Confidence of the human semantic judgement.
+CAM,annotation_confidence,MEDIUM,Confidence of the human semantic judgement.
+CAM,annotation_confidence,LOW,Confidence of the human semantic judgement.

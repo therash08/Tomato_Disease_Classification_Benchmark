@@ -1,0 +1,7 @@
+CAPTION
+-------
+Class-wise F1 degradation between the internal PlantVillage test set and external PlantDoc test set for the eight shared ground-truth classes.
+
+NOTE
+----
+The strict shared-class analysis uses the same eight ground-truth classes in both domains while retaining the original 10-way output space. F1 Drop is Internal F1 minus External F1 in percentage points.

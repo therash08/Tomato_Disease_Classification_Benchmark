@@ -1,0 +1,29 @@
+{
+    "dataset": "PlantDoc tomato subset",
+    "dataset_root": "D:\\Tomato_Disease_Research\\external_dataset\\PlantDoc_tomato_subset",
+    "train_class_count": 9,
+    "test_class_count": 8,
+    "train_image_count": 824,
+    "test_image_count": 79,
+    "total_image_count": 903,
+    "shared_classes": [
+        "Tomato_Early_blight_leaf",
+        "Tomato_Septoria_leaf_spot",
+        "Tomato_leaf",
+        "Tomato_leaf_bacterial_spot",
+        "Tomato_leaf_late_blight",
+        "Tomato_leaf_mosaic_virus",
+        "Tomato_leaf_yellow_virus",
+        "Tomato_mold_leaf"
+    ],
+    "train_only_classes": [
+        "Tomato_two_spotted_spider_mites_leaf"
+    ],
+    "test_only_classes": [],
+    "image_extensions": {
+        ".jpg": 903
+    },
+    "model_inference_performed": false,
+    "training_performed": false,
+    "fine_tuning_performed": false
+}

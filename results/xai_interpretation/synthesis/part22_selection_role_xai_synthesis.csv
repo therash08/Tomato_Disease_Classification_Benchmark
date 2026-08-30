@@ -1,0 +1,9 @@
+group,n,alignment_applicable_n,symptom_aligned_n,symptom_aligned_all_pct,symptom_aligned_applicable_n,symptom_aligned_applicable_pct,poor_alignment_n,poor_alignment_applicable_n,poor_alignment_applicable_pct,background_concern_n,background_concern_pct,dominant_background_n,dominant_background_pct,off_leaf_attention_n,off_leaf_attention_pct,symptom_region_attention_n,symptom_region_attention_pct,mean_confidence,selection_role
+internal_representative_correct,8,7,6,75.0,6,85.71428571428571,1,1,14.285714285714285,2,25.0,0,0.0,0,0.0,5,62.5,0.999998912307606,internal_representative_correct
+internal_all_incorrect,1,1,1,100.0,1,100.0,0,0,0.0,0,0.0,0,0.0,0,0.0,1,100.0,0.9998940833150056,internal_all_incorrect
+internal_relative_lowest_confidence,3,3,1,33.33333333333333,1,33.33333333333333,2,2,66.66666666666666,2,66.66666666666666,0,0.0,0,0.0,1,33.33333333333333,0.8651703558637726,internal_relative_lowest_confidence
+external_representative_correct,6,5,4,66.66666666666666,4,80.0,1,1,20.0,2,33.33333333333333,1,16.666666666666664,1,16.666666666666664,3,50.0,0.9843374292055765,external_representative_correct
+external_representative_incorrect,8,7,3,37.5,3,42.857142857142854,4,4,57.14285714285714,6,75.0,3,37.5,3,37.5,2,25.0,0.9828365817666054,external_representative_incorrect
+external_high_confidence_correct,5,5,4,80.0,4,80.0,1,1,20.0,1,20.0,0,0.0,0,0.0,4,80.0,0.9999984979629517,external_high_confidence_correct
+external_high_confidence_incorrect,5,5,2,40.0,2,40.0,3,3,60.0,2,40.0,0,0.0,0,0.0,2,40.0,0.9999931335449219,external_high_confidence_incorrect
+external_low_confidence,5,4,2,40.0,2,50.0,2,2,50.0,4,80.0,3,60.0,3,60.0,1,20.0,0.49971083998680116,external_low_confidence

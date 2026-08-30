@@ -1,0 +1,95 @@
+{
+    "external_dataset": "PlantDoc tomato subset",
+    "external_partition": "test",
+    "external_test_classes": 8,
+    "external_test_images": 79,
+    "frozen_model_classes": 10,
+    "model_output_space_reduced": false,
+    "mapping": [
+        {
+            "external_class_name": "Tomato_Early_blight_leaf",
+            "canonical_concept": "early_blight",
+            "model_class_name": "Tomato_Early_blight",
+            "model_class_index": 1,
+            "train_images": 79,
+            "test_images": 9,
+            "use_for_external_test": true
+        },
+        {
+            "external_class_name": "Tomato_Septoria_leaf_spot",
+            "canonical_concept": "septoria_leaf_spot",
+            "model_class_name": "Tomato_Septoria_leaf_spot",
+            "model_class_index": 4,
+            "train_images": 145,
+            "test_images": 12,
+            "use_for_external_test": true
+        },
+        {
+            "external_class_name": "Tomato_leaf",
+            "canonical_concept": "healthy",
+            "model_class_name": "Tomato_healthy",
+            "model_class_index": 9,
+            "train_images": 44,
+            "test_images": 8,
+            "use_for_external_test": true
+        },
+        {
+            "external_class_name": "Tomato_leaf_bacterial_spot",
+            "canonical_concept": "bacterial_spot",
+            "model_class_name": "Tomato_Bacterial_spot",
+            "model_class_index": 0,
+            "train_images": 101,
+            "test_images": 9,
+            "use_for_external_test": true
+        },
+        {
+            "external_class_name": "Tomato_leaf_late_blight",
+            "canonical_concept": "late_blight",
+            "model_class_name": "Tomato_Late_blight",
+            "model_class_index": 2,
+            "train_images": 101,
+            "test_images": 10,
+            "use_for_external_test": true
+        },
+        {
+            "external_class_name": "Tomato_leaf_mosaic_virus",
+            "canonical_concept": "mosaic_virus",
+            "model_class_name": "Tomato__Tomato_mosaic_virus",
+            "model_class_index": 8,
+            "train_images": 44,
+            "test_images": 10,
+            "use_for_external_test": true
+        },
+        {
+            "external_class_name": "Tomato_leaf_yellow_virus",
+            "canonical_concept": "yellow_leaf_curl_virus",
+            "model_class_name": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+            "model_class_index": 7,
+            "train_images": 223,
+            "test_images": 15,
+            "use_for_external_test": true
+        },
+        {
+            "external_class_name": "Tomato_mold_leaf",
+            "canonical_concept": "leaf_mold",
+            "model_class_name": "Tomato_Leaf_Mold",
+            "model_class_index": 3,
+            "train_images": 85,
+            "test_images": 6,
+            "use_for_external_test": true
+        }
+    ],
+    "model_classes_absent_from_external_test": [
+        {
+            "model_class_name": "Tomato_Spider_mites_Two_spotted_spider_mite",
+            "model_class_index": 5
+        },
+        {
+            "model_class_name": "Tomato__Target_Spot",
+            "model_class_index": 6
+        }
+    ],
+    "training_performed": false,
+    "fine_tuning_performed": false,
+    "model_inference_performed": false
+}

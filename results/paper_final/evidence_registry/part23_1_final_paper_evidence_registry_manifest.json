@@ -1,0 +1,38 @@
+{
+    "part": "23.1",
+    "analysis": "final_paper_evidence_registry",
+    "integrity_chain": {
+        "part17_final_lock_sha256": "7e84e19f2af80caed1ac543317aac05224cfb91032f9eef5098a3d567b695c1e",
+        "part19_final_lock_sha256": "4602bd6ebf0b9e7b020cf09a38a4bcdc9d64871c68b5d45db9824ae68552ee6b",
+        "part20_final_lock_sha256": "995448c3f7963a8770dba446815f290cc85a4a9b2060ff7ea28e1c54180a0194",
+        "part21_final_lock_sha256": "3c3ea772b7c65154a268606364efb1969790b24624646197be0c03d5bd607702",
+        "part22_final_lock_sha256": "41c75f0b92e480d41ca46865f157a8c5d738c85e3751a40b9862450930e183f9"
+    },
+    "integrity_resolution": {
+        "method": "recursive_cryptographic_trust_chain",
+        "direct_path_sha_supported": true,
+        "trusted_content_sha_supported": true,
+        "unreferenced_artifacts_allowed": false
+    },
+    "selection_protocol_sha256": "630c03565ce511944303d695c8fbacbfc84ef53a393a312bed8f490c6019cf80",
+    "main_figures": 7,
+    "supplementary_figures": 6,
+    "main_tables": 5,
+    "all_selected_figure_sources_lock_verified": true,
+    "all_selected_table_sources_lock_verified": true,
+    "non_redundancy_policy_locked": true,
+    "new_results_generated": false,
+    "new_model_inference": false,
+    "new_gradcam_generation": false,
+    "new_semantic_annotation": false,
+    "training": false,
+    "fine_tuning": false,
+    "parameter_updates": false,
+    "artifact_sha256": {
+        "D:\\Tomato_Disease_Research\\results\\paper_final\\evidence_registry\\part23_main_and_supplementary_figure_registry.csv": "2b562c63d31aeb949a510131ceab95d20dd81badbf653aa96182e79a7be789e2",
+        "D:\\Tomato_Disease_Research\\results\\paper_final\\evidence_registry\\part23_main_table_source_registry.csv": "8722f32b9f48f6800dafcac392dd71b10007d03b5391c6f94de71a6f2ca601a3",
+        "D:\\Tomato_Disease_Research\\results\\paper_final\\evidence_registry\\part23_manuscript_results_section_plan.json": "6ef1d94cfe951919848c4d9e765044717b530d4ff58f28fc29e6b8834d39caa4",
+        "D:\\Tomato_Disease_Research\\results\\paper_final\\evidence_registry\\part23_figure_table_selection_protocol.json": "630c03565ce511944303d695c8fbacbfc84ef53a393a312bed8f490c6019cf80",
+        "D:\\Tomato_Disease_Research\\results\\paper_final\\evidence_registry\\part23_1_final_paper_evidence_registry_summary.json": "49fd0e48826f07671c6ae2c64b79cf88af22c7cae7aaf5dd9581508a20401225"
+    }
+}

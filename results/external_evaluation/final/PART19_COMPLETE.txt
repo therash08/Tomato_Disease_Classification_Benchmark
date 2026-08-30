@@ -1,0 +1,88 @@
+PART 19 — EXTERNAL DATASET EVALUATION COMPLETE
+
+Final Frozen Model:
+Improved ConvNeXt-Tiny
+
+External Dataset:
+PlantDoc tomato subset
+
+External Test Samples:
+79
+
+External Supported Ground-Truth Classes:
+8
+
+Frozen Model Output Classes:
+10
+
+Correct Predictions:
+30
+
+Incorrect Predictions:
+49
+
+Accuracy:
+37.9747%
+
+Macro Precision:
+39.4940%
+
+Macro Recall:
+34.8958%
+
+Macro F1:
+30.0956%
+
+Balanced Accuracy:
+34.8958%
+
+Weighted F1:
+33.8718%
+
+MCC:
+0.309900
+
+Cohen Kappa:
+0.286188
+
+Test Log Loss:
+5.455558
+
+Macro ROC-AUC:
+0.762028
+
+Macro PR-AUC:
+0.467192
+
+Mean Prediction Confidence:
+92.8349%
+
+10-bin ECE:
+0.548602
+
+High-Confidence Errors >=90%:
+37
+
+Very-High-Confidence Errors >=95%:
+30
+
+Predictions to Absent External GT Classes:
+0
+
+Training Performed:
+NO
+
+Fine-Tuning Performed:
+NO
+
+Threshold Tuning Performed:
+NO
+
+External Model Selection:
+NO
+
+Final PART 19 Integrity Lock SHA-256:
+4602bd6ebf0b9e7b020cf09a38a4bcdc9d64871c68b5d45db9824ae68552ee6b
+
+Next:
+PART 20 — Domain Generalization Analysis

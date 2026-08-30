@@ -1,0 +1,10 @@
+claim_id,manuscript_section,claim,supporting_tables,supporting_figures,locked_evidence,claim_type
+C01,Discussion,Improved ConvNeXt-Tiny achieved near-ceiling internal independent-test performance.,Table_1,,Accuracy=99.96%; MacroF1=99.95%; BalancedAccuracy=99.93%,DIRECT_RESULT
+C02,Discussion,The frozen final model showed severe external performance degradation.,Table_2,Figure_1; Figure_2,External Accuracy=37.97%; MacroF1=30.10%; BalancedAccuracy=34.90%,DIRECT_RESULT
+C03,Discussion,Shared-class degradation was strongly class dependent.,Table_3,Figure_3,Bacterial=100.00 pp; Mosaic=100.00 pp; Leaf Mold=83.33 pp; Healthy=77.78 pp,DIRECT_RESULT
+C04,Discussion,External performance was accompanied by severe model overconfidence.,Table_4,Figure_4,MeanConfidence=92.83%; ConfidenceAccuracyGap=54.86 pp; ECE=0.548602,DIRECT_RESULT
+C05,Discussion,Ranking-oriented AUC metrics remained materially higher than final multiclass Macro F1.,Table_2,Supplementary_Figure_S3; Supplementary_Figure_S4,ROC-AUC=0.7620; PR-AUC=0.4672; MacroF1=30.10%,INTERPRETIVE_RESULT
+C06,Discussion,Selected external wrong cases showed lower symptom alignment and greater background concern.,Table_5,Figure_6,"Alignment Correct=80.00%, Wrong=40.00%; Background Correct=27.27%, Wrong=70.59%",DESCRIPTIVE_XAI
+C07,Discussion,Spatial mislocalization alone does not explain all external errors.,Table_5,Figure_5; Figure_6,40.00% symptom alignment among alignment-applicable selected wrong cases,RESEARCH_SAFE_INFERENCE
+C08,Discussion,Competing predicted and true classes frequently used different spatial evidence.,Table_5,Figure_5; Figure_7; Supplementary_Figure_S6,AllWrongWeightedOverlap=0.2740; ExternalWrongWeightedOverlap=0.2888; AlignmentImproved=5/14; BackgroundReduced=8/17,DESCRIPTIVE_XAI
+C09,Discussion,High confidence did not guarantee correct classification or semantically plausible attention.,Table_4; Table_5,Figure_4; Supplementary_Figure_S5,External MeanConfidence=92.83%; HighConf Wrong Alignment=40.00%,RESEARCH_SAFE_INFERENCE

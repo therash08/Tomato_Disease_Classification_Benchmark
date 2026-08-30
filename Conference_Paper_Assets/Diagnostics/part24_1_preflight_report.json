@@ -1,0 +1,18 @@
+{
+    "part": "24.1",
+    "status": "PASS",
+    "conference_asset_root": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets",
+    "final_model": "improved ConvNeXt-Tiny",
+    "internal_test_images": 2399,
+    "external_test_images": 79,
+    "internal_test_manifest": "D:\\Tomato_Disease_Research\\splits\\test_split.csv",
+    "external_test_manifest": "D:\\Tomato_Disease_Research\\results\\external_evaluation\\external_lock\\plantdoc_external_test_manifest.csv",
+    "checkpoint_candidates": [
+        "D:\\Tomato_Disease_Research\\checkpoints\\improved\\ConvNeXt_Tiny_best.pth"
+    ],
+    "selected_checkpoint": "D:\\Tomato_Disease_Research\\checkpoints\\improved\\ConvNeXt_Tiny_best.pth",
+    "training_performed": false,
+    "inference_performed": false,
+    "fine_tuning_performed": false,
+    "parameter_update": false
+}

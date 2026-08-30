@@ -1,0 +1,9 @@
+external_class_name,canonical_concept,model_class_name,model_class_index,train_images,test_images,use_for_external_test
+Tomato_Early_blight_leaf,early_blight,Tomato_Early_blight,1,79,9,True
+Tomato_Septoria_leaf_spot,septoria_leaf_spot,Tomato_Septoria_leaf_spot,4,145,12,True
+Tomato_leaf,healthy,Tomato_healthy,9,44,8,True
+Tomato_leaf_bacterial_spot,bacterial_spot,Tomato_Bacterial_spot,0,101,9,True
+Tomato_leaf_late_blight,late_blight,Tomato_Late_blight,2,101,10,True
+Tomato_leaf_mosaic_virus,mosaic_virus,Tomato__Tomato_mosaic_virus,8,44,10,True
+Tomato_leaf_yellow_virus,yellow_leaf_curl_virus,Tomato__Tomato_YellowLeaf__Curl_Virus,7,223,15,True
+Tomato_mold_leaf,leaf_mold,Tomato_Leaf_Mold,3,85,6,True

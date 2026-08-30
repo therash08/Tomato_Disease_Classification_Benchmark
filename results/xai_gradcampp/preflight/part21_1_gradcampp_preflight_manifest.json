@@ -1,0 +1,29 @@
+{
+    "part": "21.1",
+    "analysis": "gradcampp_preflight",
+    "model": "Improved ConvNeXt-Tiny",
+    "model_frozen": true,
+    "target_layer": "features.7.2",
+    "target_activation_is_spatial": true,
+    "synthetic_gradient_test": "PASS",
+    "internal_dataset_type": "TomatoDiseaseDataset",
+    "custom_dataset_record_extraction": "PASS",
+    "internal_record_source": "dataset.dataframe",
+    "internal_record_storage_type": "DataFrame",
+    "internal_path_field": "image_path",
+    "internal_label_field": "class",
+    "internal_path_prediction_alignment": "PASS",
+    "external_path_prediction_alignment": "PASS",
+    "external_79_file_sha256_verification": "PASS",
+    "real_image_gradcam_generated": false,
+    "training_performed": false,
+    "fine_tuning_performed": false,
+    "parameter_updates_performed": false,
+    "artifact_sha256": {
+        "D:\\Tomato_Disease_Research\\results\\xai_gradcampp\\preflight\\internal_plantvillage_xai_registry.csv": "37f2dcc64abb12eadd24c3716f47b49bca4a30983d3bc165c1c4198ecbd67439",
+        "D:\\Tomato_Disease_Research\\results\\xai_gradcampp\\preflight\\external_plantdoc_xai_registry.csv": "7a249340a01df394d8e8e341cc078e20a7363552060a0344054dc200bf559006",
+        "D:\\Tomato_Disease_Research\\results\\xai_gradcampp\\preflight\\combined_xai_registry.csv": "38532b2887a594c50e945b35244f54212678d8440922a583618350ab2f029f20",
+        "D:\\Tomato_Disease_Research\\results\\xai_gradcampp\\preflight\\internal_dataset_attribute_diagnostic.csv": "2f884f3045f69795d0aec071f72d13e2528faa6f2723e297ee4d73463ed731a9",
+        "D:\\Tomato_Disease_Research\\results\\xai_gradcampp\\preflight\\part21_1_gradcampp_preflight.json": "77fe1154551af3a2249ea47f6c882a5908a8f26fe048009f63d23291eef21098"
+    }
+}

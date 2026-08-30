@@ -1,0 +1,5 @@
+group,n,background_concern_pct,dominant_background_pct
+Internal Correct,11,36.36363636363637,0.0
+Internal Wrong,1,0.0,0.0
+External Correct,11,27.27272727272727,9.090909090909092
+External Wrong,17,70.58823529411765,35.294117647058826

@@ -1,0 +1,246 @@
+PART 22 — FINAL RESEARCH-SAFE XAI INTERPRETATION
+
+MODEL
+-----
+Improved ConvNeXt-Tiny
+
+METHOD
+------
+Grad-CAM++ using the frozen final model.
+
+Selected XAI cohort:
+40 cases
+
+Primary predicted-class CAMs:
+40
+
+Secondary ground-truth-class CAMs:
+18
+
+Total CAMs:
+58
+
+All CAMs were non-degenerate.
+
+SEMANTIC REVIEW SCOPE
+---------------------
+The semantic interpretation was based on structured visual review of the
+locked Grad-CAM++ atlas.
+
+The annotations are visual-descriptive.
+
+They were NOT validated by:
+- an expert plant pathologist;
+- lesion-segmentation ground truth;
+- pixel-level disease masks.
+
+The XAI cohort was deterministically stratified and therefore does not
+represent an unbiased population sample.
+
+
+1. EXTERNAL CORRECT vs WRONG
+----------------------------
+
+Selected external correct cases:
+11
+
+Symptom alignment among applicable cases:
+80.00%
+
+Moderate/Dominant background concern:
+27.27%
+
+
+Selected external wrong cases:
+17
+
+Symptom alignment among applicable cases:
+40.00%
+
+Moderate/Dominant background concern:
+70.59%
+
+Dominant background attention:
+35.29%
+
+
+Wrong minus Correct symptom-alignment difference:
+-40.00 percentage points
+
+Wrong minus Correct background-concern difference:
++43.32 percentage points
+
+
+INTERPRETATION:
+Within this selected external XAI cohort, incorrect predictions were
+associated with lower visible symptom-region alignment and considerably more
+background/context attention.
+
+This pattern is consistent with background/context sensitivity contributing
+to some external-domain failures.
+
+It does NOT establish background bias as a causal explanation for the overall
+PlantDoc performance collapse.
+
+
+2. MISCLASSIFICATION IS NOT ONLY A LOCALIZATION FAILURE
+-------------------------------------------------------
+
+Several external wrong predictions still had STRONG or PARTIAL
+symptom-region alignment.
+
+Therefore, spatial localization alone cannot explain all errors.
+
+The model can attend to visibly abnormal leaf tissue yet still assign the
+wrong disease class.
+
+This is consistent with a second failure mode involving disease-class
+discrimination under domain shift.
+
+
+3. HIGH-CONFIDENCE EXTERNAL FAILURES
+------------------------------------
+
+Selected high-confidence correct cases:
+5
+
+Symptom alignment:
+80.00%
+
+Background concern:
+20.00%
+
+
+Selected high-confidence wrong cases:
+5
+
+Symptom alignment:
+40.00%
+
+Background concern:
+40.00%
+
+Wrong minus Correct background difference:
++20.00 percentage points
+
+
+INTERPRETATION:
+High model confidence does not guarantee correct disease classification or
+semantically appropriate attention under external domain shift.
+
+This is consistent with the severe external calibration failure identified
+before XAI analysis.
+
+
+4. PREDICTED-CLASS vs TRUE-CLASS ATTENTION
+------------------------------------------
+
+External alignment-comparable wrong cases:
+14
+
+True-target alignment improved:
+5
+
+True-target alignment worsened:
+2
+
+True-target alignment unchanged:
+7
+
+
+External wrong cases:
+17
+
+True-target background attention reduced:
+8
+
+True-target background attention increased:
+3
+
+True-target background attention unchanged:
+6
+
+Shift toward symptom region:
+4
+
+Shift from off-leaf attention toward relevant tissue:
+4
+
+
+INTERPRETATION:
+Changing the Grad-CAM++ target from the erroneous predicted class to the
+ground-truth class frequently changes the spatial evidence used by the
+network.
+
+In several cases, the true-class CAM shifts toward relevant leaf/symptom
+regions or away from background/context.
+
+The pattern is not universal; some cases remain unchanged and some become
+less symptom aligned.
+
+
+5. QUANTITATIVE CAM DIFFERENCE
+------------------------------
+
+All selected wrong cases:
+
+Mean weighted overlap:
+0.274003
+
+Mean cosine similarity:
+0.309122
+
+Mean Pearson correlation:
+0.000245
+
+
+External selected wrong cases:
+
+Mean weighted overlap:
+0.288751
+
+Mean cosine similarity:
+0.326926
+
+
+INTERPRETATION:
+The relatively low predicted-vs-true CAM similarity demonstrates that
+competing disease-class targets often rely on substantially different
+spatial evidence during misclassification.
+
+
+FINAL XAI CONCLUSION
+--------------------
+
+The locked XAI evidence is consistent with multiple simultaneous
+external-domain failure mechanisms:
+
+1. increased background/context attention in many selected external errors;
+
+2. weak or absent symptom localization in some external errors;
+
+3. incorrect disease discrimination despite plausible symptom-focused
+   attention in other errors;
+
+4. different spatial evidence for competing predicted and ground-truth
+   disease classes;
+
+5. highly confident predictions that remain incorrect and sometimes
+   semantically poorly localized.
+
+These findings complement the severe PlantVillage-to-PlantDoc performance
+and calibration degradation identified previously.
+
+They must be reported as descriptive XAI evidence, not causal proof.
+
+
+LIMITATIONS
+-----------
+
+- Deterministically stratified XAI cohort.
+- Small selected subgroup counts.
+- No lesion segmentation masks.
+- No expert pathology annotation validation.
+- Grad-CAM++ is post-hoc.
+- No population-level inference.
+- No causal background-bias claim.

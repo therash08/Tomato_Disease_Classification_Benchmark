@@ -1,0 +1,112 @@
+{
+    "part": "24",
+    "stage": "final_conference_asset_lock",
+    "status": "PASS",
+    "created_local_time": "2026-08-30T18:18:34.186657+06:00",
+    "conference_asset_root": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets",
+    "registered_artifact_count": 56,
+    "main_figures": 6,
+    "main_tables": 3,
+    "supplementary_figures": 3,
+    "main_figure_png_count": 6,
+    "main_figure_pdf_count": 6,
+    "main_table_png_count": 3,
+    "main_table_pdf_count": 3,
+    "main_table_csv_count": 3,
+    "main_table_xlsx_count": 3,
+    "main_table_tex_count": 3,
+    "supplementary_png_count": 3,
+    "supplementary_pdf_count": 3,
+    "missing_required_artifacts": 0,
+    "empty_required_artifacts": 0,
+    "duplicate_asset_ids": 0,
+    "duplicate_registered_paths": 0,
+    "duplicate_registered_contents": 0,
+    "final_model": "Improved ConvNeXt-Tiny",
+    "final_checkpoint": "D:\\Tomato_Disease_Research\\checkpoints\\improved\\ConvNeXt_Tiny_best.pth",
+    "final_checkpoint_sha256": "9cf5ff6aa3897e1a4de6878f62b3b6ae61828e28c4b9f6c002eef952b917722a",
+    "internal_test_n": 2399,
+    "external_test_n": 79,
+    "final_internal_accuracy_percent": 99.9583,
+    "final_internal_macro_f1_percent": 99.949,
+    "external_accuracy_percent": 37.9747,
+    "external_macro_f1_percent": 30.0956,
+    "external_balanced_accuracy_percent": 34.8958,
+    "external_ece": 0.548602,
+    "pca_pc1_variance_percent": 19.404,
+    "pca_pc2_variance_percent": 15.4707,
+    "pca_pc1_pc2_variance_percent": 34.8747,
+    "pca_pc1_domain_cohens_d": 0.1393,
+    "pca_pc2_domain_cohens_d": -0.7203,
+    "external_correct_symptom_alignment_percent": 80.0,
+    "external_wrong_symptom_alignment_percent": 40.0,
+    "external_correct_background_concern_percent": 27.27,
+    "external_wrong_background_concern_percent": 70.59,
+    "xai_interpretation_scope": "selected deterministic descriptive cohort",
+    "xai_causal_claim": false,
+    "registry_csv": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Conference_Asset_Registry.csv",
+    "registry_csv_sha256": "134572175005d9bd200e641dcaa76bf0ffffe8d271473c3df3646ae67e289955",
+    "registry_xlsx": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Conference_Asset_Registry.xlsx",
+    "registry_xlsx_sha256": "ced8feb758423cfe98bd72039c151565a9be25fd6d8812e3d2653365e78925ac",
+    "registered_package_bytes": 46454920,
+    "registered_package_megabytes": 44.30286407470703,
+    "package_fingerprint_sha256": "1fa11edfc9d7b3ada2f706d45b56eafc7d6c9c21be5a606e01cb83f7fe7a836d",
+    "lineage_manifests": [
+        {
+            "filename": "part24_1_clean_setup.json",
+            "path": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Manifests\\part24_1_clean_setup.json",
+            "sha256": "d1131deb4fcdacbc4d911672ab8173613e5cde22b2a9226a6df87c730c11ea1f"
+        },
+        {
+            "filename": "part24_6_external_confusion_matrix_manifest.json",
+            "path": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Manifests\\part24_6_external_confusion_matrix_manifest.json",
+            "sha256": "1287e7bb3819ea61f82904244f094b36f5b046529efb8cd88bf31106189259ab"
+        },
+        {
+            "filename": "part24_7b_classwise_f1_degradation_manifest.json",
+            "path": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Manifests\\part24_7b_classwise_f1_degradation_manifest.json",
+            "sha256": "c186ae16b90cf29eae9a219a03320765dc5c190aa52fbbfa34357aa79d106e74"
+        },
+        {
+            "filename": "part24_8_dataset_visual_domain_shift_manifest.json",
+            "path": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Manifests\\part24_8_dataset_visual_domain_shift_manifest.json",
+            "sha256": "477567cb9b14ca44dc06b4b8771a3aeb6dc4006c36c5eb7bca9ebfcf6fa59456"
+        },
+        {
+            "filename": "part24_9C_full_embedding_extraction_manifest.json",
+            "path": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Manifests\\part24_9C_full_embedding_extraction_manifest.json",
+            "sha256": "ecf8f83c2b2dd3e2309eab495f248b918128a1ad5b9b8e82a87dea7e2bd7f5d3"
+        },
+        {
+            "filename": "part24_9D_pca_domain_shift_manifest.json",
+            "path": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Manifests\\part24_9D_pca_domain_shift_manifest.json",
+            "sha256": "212741b2ff8b8993fe0719c5133085e0517d9b7d92f3cf34cedf4da3dd26c5b6"
+        },
+        {
+            "filename": "part24_10_generalization_calibration_manifest.json",
+            "path": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Manifests\\part24_10_generalization_calibration_manifest.json",
+            "sha256": "1161195600877b7523f98ac99f526a499ef5498178897eb54819a455a123f6e6"
+        },
+        {
+            "filename": "part24_10A_final_table_cleanup_manifest.json",
+            "path": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Manifests\\part24_10A_final_table_cleanup_manifest.json",
+            "sha256": "db75a6953d0dbcdd12f7db53d84970544272765086851084c08f2cfe26acf8f2"
+        },
+        {
+            "filename": "part24_11_xai_figure_packaging_manifest.json",
+            "path": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Manifests\\part24_11_xai_figure_packaging_manifest.json",
+            "sha256": "fdc100fd9e971541c0df8050bf179f30c767438d863375b52968ef0e79f79cb3"
+        }
+    ],
+    "new_training": false,
+    "new_model_inference": false,
+    "new_feature_extraction": false,
+    "new_metric_recomputation": false,
+    "new_pca_fit": false,
+    "new_gradcam_generation": false,
+    "new_xai_annotation": false,
+    "posthoc_calibration": false,
+    "external_fine_tuning": false,
+    "threshold_tuning": false,
+    "model_reselection": false
+}

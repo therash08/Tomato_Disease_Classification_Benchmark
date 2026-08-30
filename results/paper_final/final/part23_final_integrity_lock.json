@@ -1,0 +1,71 @@
+{
+    "part": "PART 23",
+    "final_paper_evidence_locked": true,
+    "research_pipeline_complete": true,
+    "model": "Improved ConvNeXt-Tiny",
+    "integrity_chain": {
+        "part20_final_lock_sha256": "995448c3f7963a8770dba446815f290cc85a4a9b2060ff7ea28e1c54180a0194",
+        "part21_final_lock_sha256": "3c3ea772b7c65154a268606364efb1969790b24624646197be0c03d5bd607702",
+        "part22_final_lock_sha256": "41c75f0b92e480d41ca46865f157a8c5d738c85e3751a40b9862450930e183f9",
+        "part23_1_registry_manifest_sha256": "1e1b58a67562e3641e94152331dc25115e4d1cf5ded440bced508e74ee83d6ba",
+        "part23_2_table_manifest_sha256": "2b6fcd497af444a225ee75a3983f16e78b30407ea37ad3b0fca3ec1608ac28fb",
+        "part23_3_figure_manifest_sha256": "4de7ffc1dc384bb0f11684d0ccc64b99d8d11494459729a5316f718b1e71261a",
+        "part23_4_text_manifest_sha256": "0bca932849661ae41fb7ca02d8f7a5d1ddf1cf997e8231e77b5f91f54feb7cbe",
+        "part23_final_summary_sha256": "02cf90e0306ed382acc6e666ae76295b4400e1b0e8d9f2b10136cafcda332dcb"
+    },
+    "publication_package": {
+        "main_tables": 5,
+        "main_figures": 7,
+        "supplementary_figures": 6,
+        "figure_png_files": 13,
+        "figure_pdf_files": 13,
+        "discussion_completed": true,
+        "limitations_completed": true,
+        "conclusion_completed": true,
+        "evidence_crosswalk_claims": 9
+    },
+    "locked_headline_results": {
+        "internal_accuracy_pct": 99.9583159649854,
+        "internal_macro_f1_pct": 99.94904204909535,
+        "external_accuracy_pct": 37.9746835443038,
+        "external_macro_f1_pct": 30.09560723514212,
+        "external_balanced_accuracy_pct": 34.89583333333333,
+        "external_mcc": 0.30989985334962583,
+        "external_ece": 0.5486021635534432,
+        "external_confidence_accuracy_gap_pp": 54.86021635534431,
+        "external_correct_xai_alignment_pct": 80.0,
+        "external_wrong_xai_alignment_pct": 40.0,
+        "external_correct_background_concern_pct": 27.27272727272727,
+        "external_wrong_background_concern_pct": 70.58823529411765,
+        "all_wrong_cam_weighted_overlap": 0.2740029405175924
+    },
+    "scientific_constraints": {
+        "external_xai_statistics_descriptive": true,
+        "population_level_xai_inference": false,
+        "causal_background_bias_claim": false,
+        "causal_model_reasoning_claim": false,
+        "expert_pathology_validation": false,
+        "lesion_segmentation_ground_truth": false,
+        "external_literature_synthesis_in_part23_4": false
+    },
+    "research_changes_in_part23": {
+        "new_model_inference": false,
+        "new_performance_estimation": false,
+        "new_statistical_testing": false,
+        "new_gradcam_generation": false,
+        "new_semantic_annotation": false,
+        "training": false,
+        "fine_tuning": false,
+        "parameter_updates": false
+    },
+    "manuscript_text_artifact_sha256": {
+        "D:\\Tomato_Disease_Research\\results\\paper_final\\manuscript_text\\part23_4_discussion.md": "dbf70ff6fcc2fd770ea1fb6c930a9e85c545c2cdd9ee996fe6dbede2284ffcf4",
+        "D:\\Tomato_Disease_Research\\results\\paper_final\\manuscript_text\\part23_4_limitations.md": "d919eff8f5e78780b1672c46b6e50b7b11fa209ee531b9aa1092ddff51cbd41e",
+        "D:\\Tomato_Disease_Research\\results\\paper_final\\manuscript_text\\part23_4_conclusion.md": "cb60a49127fc54007476b71fd25bdcd0383787ef82c8d5f8997a5587415c0450",
+        "D:\\Tomato_Disease_Research\\results\\paper_final\\manuscript_text\\part23_4_discussion_limitations_conclusion.md": "32f04a0d3b885e04586f856ae938bf6e5c1b4c4de9c20af0a886a04b841bb2a5",
+        "D:\\Tomato_Disease_Research\\results\\paper_final\\manuscript_text\\part23_4_discussion_limitations_conclusion.txt": "870be4cfeebf41cf3bf5dfee14eebfe49cfc26d6d28323c3257370815ae69552",
+        "D:\\Tomato_Disease_Research\\results\\paper_final\\manuscript_text\\part23_4_evidence_crosswalk.csv": "b10b50bd1bb423ca07a2218e0b046b13e3ce1307794bb44d660240e80d4aa421",
+        "D:\\Tomato_Disease_Research\\results\\paper_final\\manuscript_text\\part23_4_manuscript_text_summary.json": "b7f55188fe20a9dba5485598d0052490ee7883abaf9636939c69a108a3670942"
+    },
+    "ready_for_manuscript_assembly": true
+}

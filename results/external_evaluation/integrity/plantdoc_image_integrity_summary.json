@@ -1,0 +1,53 @@
+{
+    "dataset": "PlantDoc tomato subset",
+    "validation_scope": "train_and_test",
+    "expected_train_images": 824,
+    "expected_test_images": 79,
+    "expected_total_images": 903,
+    "validated_train_images": 824,
+    "validated_test_images": 79,
+    "validated_total_images": 903,
+    "valid_images": 903,
+    "invalid_images": 0,
+    "valid_train_images": 824,
+    "valid_test_images": 79,
+    "invalid_test_images": 0,
+    "detected_formats": {
+        "JPEG": 902,
+        "PNG": 1
+    },
+    "image_modes": {
+        "RGB": 902,
+        "RGBA": 1
+    },
+    "all_dimensions": {
+        "min_width": 115,
+        "median_width": 504.0,
+        "max_width": 6000,
+        "min_height": 69,
+        "median_height": 460.0,
+        "max_height": 6000
+    },
+    "test_dimensions": {
+        "min_width": 130,
+        "median_width": 500.0,
+        "max_width": 5808,
+        "min_height": 69,
+        "median_height": 448.0,
+        "max_height": 4000
+    },
+    "test_classes": [
+        "Tomato_Early_blight_leaf",
+        "Tomato_Septoria_leaf_spot",
+        "Tomato_leaf",
+        "Tomato_leaf_bacterial_spot",
+        "Tomato_leaf_late_blight",
+        "Tomato_leaf_mosaic_virus",
+        "Tomato_leaf_yellow_virus",
+        "Tomato_mold_leaf"
+    ],
+    "dataset_files_modified": false,
+    "training_performed": false,
+    "fine_tuning_performed": false,
+    "model_inference_performed": false
+}

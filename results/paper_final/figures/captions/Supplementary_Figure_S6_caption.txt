@@ -1,0 +1,1 @@
+Supplementary Figure S6. Predicted-class versus ground-truth-class Grad-CAM++ spatial overlap for the selected misclassified cases. The mean weighted overlap across all 18 wrong cases was 0.2740; for the 17 external wrong cases it was 0.2888. The relatively low overlap supports the observation that competing class targets often depend on different spatial evidence.

@@ -1,0 +1,6 @@
+metric,internal_value,external_value,performance_gap,direction,internal_scope,external_scope,strict_class_matched_comparison
+Accuracy,0.9995831596498541,0.379746835443038,0.6198363242068161,higher_is_better,PlantVillage internal test / 10 GT classes,PlantDoc external test / 8 GT classes / 10-way predictions,True
+Macro F1,0.9994904204909535,0.3009560723514212,0.6985343481395323,higher_is_better,Macro average across 10 internal GT classes,Macro average across 8 supported external GT classes,False
+Balanced Accuracy,0.9993333333333332,0.3489583333333333,0.6503749999999999,higher_is_better,Mean recall across 10 internal GT classes,Mean recall across 8 supported external GT classes,False
+MCC,0.9995260996801574,0.30989985334962583,0.6896262463305316,higher_is_better,Internal multiclass predictions,External multiclass predictions,True
+Test Log Loss,0.004070354134172602,5.455558002714474,5.451487648580302,lower_is_better,10-class probability output,10-class probability output,True

@@ -1,0 +1,3 @@
+Note. Internal results correspond to the strict shared-eight PlantVillage comparison subset (n = 1,938); external results correspond to the mapped PlantDoc test set (n = 79).
+Performance and calibration values are from the locked PART 20 analysis. Change values preserve the locked full-precision results; displayed Internal and External endpoints are rounded.
+ECE = Expected Calibration Error; NLL = Negative Log-Likelihood; pp = percentage points. No post-hoc calibration, external fine-tuning, threshold optimization, or model reselection was performed.

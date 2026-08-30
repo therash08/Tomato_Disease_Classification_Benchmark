@@ -1,0 +1,28 @@
+{
+    "conference_asset_root": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets",
+    "figures_directory": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Figures",
+    "tables_directory": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Tables",
+    "data_directory": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Data",
+    "diagnostics_directory": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Diagnostics",
+    "manifests_directory": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Manifests",
+    "supplementary_directory": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Supplementary",
+    "part18_artifact_search": {
+        "plantdoc_external_test_manifest.csv": [
+            "D:\\Tomato_Disease_Research\\results\\external_evaluation\\external_lock\\plantdoc_external_test_manifest.csv"
+        ],
+        "plantdoc_external_test_identity_lock.json": [
+            "D:\\Tomato_Disease_Research\\results\\external_evaluation\\external_lock\\plantdoc_external_test_identity_lock.json"
+        ],
+        "PART18_COMPLETE.txt": [
+            "D:\\Tomato_Disease_Research\\results\\external_evaluation\\external_lock\\PART18_COMPLETE.txt"
+        ]
+    },
+    "external_lock_directories": [
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\external_lock"
+    ],
+    "known_plantdoc_roots": [
+        "D:\\Tomato_Disease_Research\\external_dataset\\PlantDoc_tomato_subset"
+    ],
+    "resolved_external_manifest": "D:\\Tomato_Disease_Research\\results\\external_evaluation\\external_lock\\plantdoc_external_test_manifest.csv",
+    "resolved_external_identity_lock": "D:\\Tomato_Disease_Research\\results\\external_evaluation\\external_lock\\plantdoc_external_test_identity_lock.json"
+}

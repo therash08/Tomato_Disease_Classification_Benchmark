@@ -1,0 +1,5 @@
+group,n,alignment_comparable_n,alignment_improved_true_target_n,alignment_worsened_true_target_n,alignment_unchanged_n,background_comparable_n,background_reduced_true_target_n,background_increased_true_target_n,background_unchanged_n,off_leaf_to_relevant_tissue_shift_n,shift_to_symptom_region_n,mean_weighted_overlap,median_weighted_overlap,mean_cosine_similarity,mean_pearson_correlation,mean_normalized_center_distance,mean_normalized_peak_distance
+All Selected Wrong Cases,18,15,5,3,7,18,8,4,6,4,4,0.2740029405175924,0.28774158513095016,0.30912186572171296,0.00024452043723210623,0.18287094184035133,0.37098629638070674
+External Wrong Cases,17,14,5,2,7,17,8,3,6,4,4,0.28875062519907974,0.2962985336144421,0.3269259199225686,0.028095412557244858,0.16925827823894968,0.3687468948077836
+Internal Wrong Case,1,1,0,1,0,1,0,1,0,0,0,0.0232923009323077,0.0232923009323077,0.0064529443071681,-0.4732206456029846,0.4142862230641793,0.4090561231204022
+External High-Confidence Wrong Cases,5,5,2,1,2,5,2,1,2,0,2,0.27825635551373334,0.3108646712328253,0.30243893154371865,0.008241480827060218,0.11458947460143012,0.33950444795467283

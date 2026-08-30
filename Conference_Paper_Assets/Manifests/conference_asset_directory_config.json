@@ -1,0 +1,32 @@
+{
+    "created_at": "2026-08-30T16:55:48",
+    "project_root": "D:\\Tomato_Disease_Research",
+    "conference_asset_root": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets",
+    "figures": {
+        "root": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Figures",
+        "png": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Figures\\PNG",
+        "pdf": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Figures\\PDF"
+    },
+    "tables": {
+        "root": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Tables",
+        "csv": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Tables\\CSV",
+        "excel": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Tables\\Excel"
+    },
+    "data": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Data",
+    "diagnostics": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Diagnostics",
+    "manifests": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Manifests",
+    "supplementary": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Supplementary",
+    "planned_main_figures": {
+        "figure_1": "Figure_01_Research_Workflow",
+        "figure_2": "Figure_02_Feature_Space_Domain_Shift",
+        "figure_3": "Figure_03_External_Confusion_Matrix",
+        "figure_4": "Figure_04_Classwise_F1_Degradation",
+        "figure_5": "Figure_05_External_GradCAMpp"
+    },
+    "planned_main_tables": {
+        "table_1": "Table_01_Dataset_Split_Leakage",
+        "table_2": "Table_02_Model_Benchmark",
+        "table_3": "Table_03_Internal_vs_External"
+    },
+    "write_access": true
+}

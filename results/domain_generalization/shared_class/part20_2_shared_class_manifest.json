@@ -1,0 +1,23 @@
+{
+    "part": "20.2",
+    "analysis": "strict_shared_8_class_degradation",
+    "model": "Improved ConvNeXt-Tiny",
+    "shared_ground_truth_classes": 8,
+    "model_output_classes": 10,
+    "internal_full_samples": 2399,
+    "internal_shared_samples": 1938,
+    "external_shared_samples": 79,
+    "internal_prediction_fingerprint": "605d183c4e5acb5e20da6088aa12620947e62730ffaf46db7adf89a7edcfd6d1",
+    "internal_full_accuracy_verified": 0.9995831596498541,
+    "part20_1_manifest_sha256": "e8a6e5e089fad2ff620146a0b0cf14c08e9a90243bd439f605a11b20208ffed0",
+    "part19_final_integrity_lock_sha256": "4602bd6ebf0b9e7b020cf09a38a4bcdc9d64871c68b5d45db9824ae68552ee6b",
+    "part17_final_lock_sha256_current": "7e84e19f2af80caed1ac543317aac05224cfb91032f9eef5098a3d567b695c1e",
+    "same_gt_class_set_used": true,
+    "same_10_class_prediction_space_used": true,
+    "external_metrics_recomputed_and_matched_part19": true,
+    "new_model_inference_performed": false,
+    "training_performed": false,
+    "fine_tuning_performed": false,
+    "comparison_csv_sha256": "c20cf555eb58af839f96171bf703b44831dd8787a7dc1fc8ea187955adc18de4",
+    "summary_json_sha256": "0f996687724f3e8100494a892928c5e1e6c76c142302ccc781085da27639d13e"
+}

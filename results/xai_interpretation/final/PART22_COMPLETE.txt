@@ -1,0 +1,178 @@
+PART 22 — XAI INTERPRETATION COMPLETE
+
+Final Frozen Model:
+Improved ConvNeXt-Tiny
+
+XAI Method:
+Grad-CAM++
+
+LOCKED XAI COHORT
+-----------------
+Selected Cases:
+40
+
+Primary Predicted-Class CAMs:
+40
+
+Secondary True-Class CAMs:
+18
+
+Total CAMs:
+58
+
+Wrong Predicted-vs-True CAM Pairs:
+18
+
+
+EXTERNAL CORRECT vs WRONG
+-------------------------
+
+External Correct Symptom Alignment:
+80.00%
+
+External Wrong Symptom Alignment:
+40.00%
+
+Difference:
+-40.00 percentage points
+
+
+External Correct Background Concern:
+27.27%
+
+External Wrong Background Concern:
+70.59%
+
+Difference:
++43.32 percentage points
+
+
+HIGH-CONFIDENCE EXTERNAL XAI
+----------------------------
+
+High-Confidence Correct Symptom Alignment:
+80.00%
+
+High-Confidence Wrong Symptom Alignment:
+40.00%
+
+High-Confidence Correct Background Concern:
+20.00%
+
+High-Confidence Wrong Background Concern:
+40.00%
+
+
+TRUE-CLASS TARGET SHIFT
+-----------------------
+
+Alignment-Comparable External Wrong Cases:
+14
+
+Alignment Improved:
+5
+
+Alignment Worsened:
+2
+
+Alignment Unchanged:
+7
+
+Background Reduced:
+8
+
+Background Increased:
+3
+
+Background Unchanged:
+6
+
+Shift to Symptom Region:
+4
+
+Off-Leaf to Relevant Tissue:
+4
+
+
+QUANTITATIVE CAM DIFFERENCE
+---------------------------
+
+All Wrong Mean Weighted Overlap:
+0.274003
+
+All Wrong Mean Cosine Similarity:
+0.309122
+
+All Wrong Mean Pearson Correlation:
+0.000245
+
+External Wrong Mean Weighted Overlap:
+0.288751
+
+External Wrong Mean Cosine Similarity:
+0.326926
+
+
+INTERPRETATION
+--------------
+
+The selected external wrong cases exhibit lower visible symptom-region
+alignment and substantially greater background/context concern than selected
+external correct cases.
+
+However, some incorrect predictions remain symptom aligned, demonstrating
+that external-domain errors cannot be attributed only to spatial
+mislocalization.
+
+Predicted-class and ground-truth-class Grad-CAM++ maps often rely on
+different spatial evidence.
+
+In multiple external errors, changing the target to the true class reduces
+background attention or moves attention toward relevant plant/symptom tissue.
+
+High prediction confidence does not guarantee correct classification or
+semantically appropriate attention under external domain shift.
+
+
+SCIENTIFIC LIMITATIONS
+----------------------
+
+- Deterministically stratified XAI cohort.
+- Descriptive statistics only.
+- No population-level inference.
+- No lesion-segmentation ground truth.
+- No expert plant-pathologist validation.
+- Grad-CAM++ is post-hoc.
+- No causal background-bias claim.
+
+
+RESEARCH INTEGRITY
+------------------
+
+New Model Inference in PART 22.4:
+NO
+
+New Grad-CAM++ Generation:
+NO
+
+New Semantic Annotation:
+NO
+
+Statistical Hypothesis Testing:
+NO
+
+Training:
+NO
+
+Fine-Tuning:
+NO
+
+Parameter Updates:
+NO
+
+
+Final PART 22 Integrity Lock SHA-256:
+41c75f0b92e480d41ca46865f157a8c5d738c85e3751a40b9862450930e183f9
+
+Next:
+PART 23 — Final Paper Figures + Tables + Discussion + Limitations + Conclusion

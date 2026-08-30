@@ -1,0 +1,4 @@
+attribute,type,length
+dataframe,DataFrame,2399.0
+transform,Compose,
+class_to_index,dict,10.0

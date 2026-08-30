@@ -1,0 +1,47 @@
+{
+    "dataset": "PlantDoc tomato subset",
+    "evaluation_role": "external_domain_generalization_test",
+    "partition": "test",
+    "external_test_locked": true,
+    "external_test_samples": 79,
+    "external_ground_truth_classes": 8,
+    "frozen_model_output_classes": 10,
+    "model_output_space_reduced": false,
+    "external_training_data_used": false,
+    "external_fine_tuning_performed": false,
+    "external_model_inference_performed": false,
+    "class_counts": {
+        "Tomato_Early_blight_leaf": 9,
+        "Tomato_Septoria_leaf_spot": 12,
+        "Tomato_leaf": 8,
+        "Tomato_leaf_bacterial_spot": 9,
+        "Tomato_leaf_late_blight": 10,
+        "Tomato_leaf_mosaic_virus": 10,
+        "Tomato_leaf_yellow_virus": 15,
+        "Tomato_mold_leaf": 6
+    },
+    "model_classes_absent_from_external_test": [
+        {
+            "model_class_name": "Tomato_Spider_mites_Two_spotted_spider_mite",
+            "model_class_index": 5
+        },
+        {
+            "model_class_name": "Tomato__Target_Spot",
+            "model_class_index": 6
+        }
+    ],
+    "cross_dataset_audit_status": "PASS",
+    "cross_dataset_exact_sha256_pairs": 0,
+    "cross_dataset_phash_candidates_le_4": 0,
+    "within_external_exact_duplicate_pairs": 0,
+    "within_external_phash_candidates_le_4": 0,
+    "external_test_membership_sha256": "28a085def3a5d7df34906334f7bc3aeaa3235f8190ef34161242ec904fe792cc",
+    "external_class_mapping_sha256": "ad9c29e7bf02e750de3e5590fcb23f321a884cb470fe13d90961788d65fcf271",
+    "manifest_csv_sha256": "f75f92ff8c90374a8da0694f879593000fc6a9fe48f5fd07ae5a61326e776149",
+    "manifest_json_sha256": "7e63d7174b59fbe4d0b0a2941b7761bd7a650ae52a0683401cd9ddd00f86fbe1",
+    "cross_dataset_audit_json_sha256": "4e9b8d39f95ffa92a72770a4b879e306bdf2ecffeb6983fdb39f35ad20a2f359",
+    "dataset_modified_during_lock": false,
+    "automatic_sample_deletion_performed": false,
+    "selection_based_on_model_performance": false,
+    "ready_for_frozen_external_inference": true
+}

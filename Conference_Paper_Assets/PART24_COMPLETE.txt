@@ -1,0 +1,50 @@
+PART 24 — CONFERENCE PAPER ASSET REGENERATION + DOMAIN SHIFT CHARACTERIZATION
+FINAL STATUS: COMPLETE
+
+Main Figures: 6/6 PASS
+Main Tables: 3/3 PASS
+Supplementary Figures: 3/3 PASS
+
+Registered artifacts: 56
+Missing required artifacts: 0
+Empty required artifacts: 0
+Duplicate registered paths: 0
+Duplicate registered contents: 0
+
+Frozen final model: Improved ConvNeXt-Tiny
+Internal test: n=2399
+External PlantDoc test: n=79
+
+Final internal Accuracy: 99.9583%
+Final internal Macro F1: 99.9490%
+External Accuracy: 37.9747%
+External Macro F1: 30.0956%
+External ECE: 0.548602
+
+PCA:
+PC1 explained variance: 19.4040%
+PC2 explained variance: 15.4707%
+PC1+PC2: 34.8747%
+PC1 Cohen's d: +0.1393
+PC2 Cohen's d: -0.7203
+
+Final package fingerprint SHA256:
+1fa11edfc9d7b3ada2f706d45b56eafc7d6c9c21be5a606e01cb83f7fe7a836d
+
+Final integrity lock SHA256:
+8ae41cfa036021b70a001d58b881932f4f57f053f0c787b90a0dbc3d9bf3ee11
+
+Research integrity:
+- No new training
+- No new model inference
+- No new feature extraction
+- No metric recomputation
+- No PCA rerun
+- No Grad-CAM++ rerun
+- No XAI re-annotation
+- No post-hoc calibration
+- No external fine-tuning
+- No threshold tuning
+- No model reselection
+
+PART24_COMPLETE

@@ -1,0 +1,25 @@
+{
+    "engine": "Grad-CAM++",
+    "target_layer": "features.7.2",
+    "locked_activation_shape": [
+        1,
+        768,
+        7,
+        7
+    ],
+    "red_test": "PASS",
+    "green_numerical_test": "PASS",
+    "analytical_expected_normalized_cam": [
+        [
+            0.0,
+            0.3333333333333333
+        ],
+        [
+            0.6666666666666666,
+            1.0
+        ]
+    ],
+    "gradient_policy": "positive_gradients_only_in_channel_weighting",
+    "cam_postprocessing": "ReLU_then_bilinear_upsampling_then_minmax_normalization",
+    "model_parameter_gradients_allowed": false
+}

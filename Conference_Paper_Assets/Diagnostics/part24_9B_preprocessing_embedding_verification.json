@@ -1,0 +1,48 @@
+{
+    "part": "24.9B",
+    "status": "PASS",
+    "architecture": "ConvNeXt-Tiny",
+    "checkpoint": "D:\\Tomato_Disease_Research\\checkpoints\\improved\\ConvNeXt_Tiny_best.pth",
+    "input_size": [
+        224,
+        224
+    ],
+    "interpolation": "bilinear",
+    "normalization_mean": [
+        0.485,
+        0.456,
+        0.406
+    ],
+    "normalization_std": [
+        0.229,
+        0.224,
+        0.225
+    ],
+    "augmentation": false,
+    "embedding_capture_method": "forward_pre_hook on classifier[2]",
+    "embedding_dimension": 768,
+    "num_output_classes": 10,
+    "plantvillage_sample": "D:\\Tomato_Disease_Research\\plantvillage\\Tomato_Bacterial_spot\\0045ba29-ed1b-43b4-afde-719cc7adefdb___GCREC_Bact.Sp 6254.JPG",
+    "plantdoc_sample": "D:\\Tomato_Disease_Research\\external_dataset\\PlantDoc_tomato_subset\\test\\Tomato_leaf_bacterial_spot\\test_Tomato leaf bacterial spot_1.jpg",
+    "plantvillage_original_size": [
+        256,
+        256
+    ],
+    "plantdoc_original_size": [
+        350,
+        260
+    ],
+    "plantvillage_prediction_index": 0,
+    "plantdoc_prediction_index": 4,
+    "plantvillage_confidence": 0.9999991655349731,
+    "plantdoc_confidence": 0.9995757937431335,
+    "plantvillage_embedding_norm": 24.850576400756836,
+    "plantdoc_embedding_norm": 24.06698226928711,
+    "diagnostic_embedding_csv": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Diagnostics\\part24_9B_two_image_embedding_verification.csv",
+    "training": false,
+    "fine_tuning": false,
+    "threshold_tuning": false,
+    "model_reselection": false,
+    "pca": false,
+    "diagnostic_forward_pass_images": 2
+}

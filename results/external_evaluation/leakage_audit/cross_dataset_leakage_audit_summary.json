@@ -1,0 +1,23 @@
+{
+    "source_dataset": "PlantVillage",
+    "source_root": "D:\\Tomato_Disease_Research\\plantvillage",
+    "source_images_scanned": 16011,
+    "external_dataset": "PlantDoc tomato subset",
+    "external_partition": "test",
+    "external_test_images_scanned": 79,
+    "exact_hash_algorithm": "SHA-256",
+    "perceptual_hash_algorithm": "64-bit pHash",
+    "phash_hamming_threshold": 4,
+    "exact_duplicate_pairs": 0,
+    "external_images_with_exact_match": 0,
+    "phash_zero_distance_pairs": 0,
+    "external_images_with_phash_zero": 0,
+    "phash_candidate_pairs_distance_le_4": 0,
+    "external_images_with_phash_candidate": 0,
+    "audit_status": "PASS",
+    "automatic_deletion_performed": false,
+    "dataset_modified": false,
+    "training_performed": false,
+    "fine_tuning_performed": false,
+    "model_inference_performed": false
+}

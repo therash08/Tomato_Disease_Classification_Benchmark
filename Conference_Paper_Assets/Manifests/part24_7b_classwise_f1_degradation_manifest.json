@@ -1,0 +1,21 @@
+{
+    "part": "24.7B",
+    "status": "PASS",
+    "locked_source": "D:\\Tomato_Disease_Research\\results\\domain_generalization\\shared_class\\shared_8_class_internal_vs_external_degradation.csv",
+    "class_column": "class_name",
+    "internal_f1_column": "internal_f1",
+    "external_f1_column": "external_f1",
+    "f1_drop_column": "f1_drop_pp",
+    "shared_classes": 8,
+    "max_consistency_difference_pp": 1.4210854715202004e-14,
+    "figure_png": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Figures\\Figure_03_Classwise_F1_Degradation.png",
+    "figure_pdf": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Figures\\Figure_03_Classwise_F1_Degradation.pdf",
+    "data_csv": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Data\\Figure_03_Classwise_F1_Degradation_Data.csv",
+    "data_xlsx": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Data\\Figure_03_Classwise_F1_Degradation_Data.xlsx",
+    "caption": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Figures\\Figure_03_Classwise_F1_Degradation_Caption.txt",
+    "new_training": false,
+    "new_inference": false,
+    "fine_tuning": false,
+    "threshold_tuning": false,
+    "model_reselection": false
+}

@@ -1,0 +1,18 @@
+{
+    "part": "24.8A",
+    "plantdoc_root": "D:\\Tomato_Disease_Research\\external_dataset\\PlantDoc_tomato_subset",
+    "plantdoc_test_root": "D:\\Tomato_Disease_Research\\external_dataset\\PlantDoc_tomato_subset\\test",
+    "rows": 79,
+    "resolution_counts": {
+        "A_relative_from_subset_root": 79,
+        "B_relative_from_test_root": 0,
+        "C_canonical_from_subset_root": 79,
+        "D_canonical_from_test_root": 0,
+        "E_class_plus_filename": 79
+    },
+    "perfect_methods": [
+        "A_relative_from_subset_root",
+        "C_canonical_from_subset_root",
+        "E_class_plus_filename"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "part": "20.1",
+    "analysis": "overall_internal_vs_external_domain_gap",
+    "model": "Improved ConvNeXt-Tiny",
+    "part19_final_integrity_lock_sha256": "4602bd6ebf0b9e7b020cf09a38a4bcdc9d64871c68b5d45db9824ae68552ee6b",
+    "internal_source": "PART 17 final locked ranking",
+    "external_source": "PART 19 final locked external summary",
+    "new_inference_performed": false,
+    "training_performed": false,
+    "fine_tuning_performed": false,
+    "threshold_tuning_performed": false,
+    "macro_scope_difference_explicitly_recorded": true,
+    "csv_sha256": "aee1d49ceac34f3ca6ff43b1e5774319991f4e9d5ec41ce59faa4b293baf46d9",
+    "json_sha256": "64b9ae3e2ca7ce08e639820ee05cf3d7c371886732077410aec452d7985e321c"
+}

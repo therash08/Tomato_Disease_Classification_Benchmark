@@ -1,0 +1,28 @@
+{
+    "part": "19.4",
+    "analysis": "external_error_and_confidence",
+    "external_samples": 79,
+    "raw_prediction_manifest_sha256": "b3e1066775a340d15eb8f7d24a15628e411a2591675b7fc50ad0d846ed1bfe3e",
+    "corrected_metric_manifest_sha256": "6d201d8b32aac7fca0b2e4347c30341d392260996feb4343242ff94eae95b397",
+    "high_confidence_threshold": 0.9,
+    "very_high_confidence_threshold": 0.95,
+    "low_confidence_threshold": 0.7,
+    "thresholds_used_for_model_decision": false,
+    "new_inference_performed": false,
+    "training_performed": false,
+    "fine_tuning_performed": false,
+    "artifact_sha256": {
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\error_analysis\\plantdoc_external_sample_error_analysis.csv": "fd0f7cfd9cdd9f11eeaffa4667a91bca4e6c05920cbf60b1b8387219d32ac522",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\error_analysis\\plantdoc_external_confusion_pairs.csv": "6b4c3cefa325637e5c3778f5f2f19fa6a7356109dc30754b135e2733cc68081f",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\error_analysis\\plantdoc_external_class_error_summary.csv": "03d69a6fba4562027d578d6eb072483966eaa42cf3dac030bebeb084ce606335",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\error_analysis\\plantdoc_external_confidence_bands.csv": "e9ea32de1219466c2b91e7578a074f51c70facc8de3b7d7dad52f5632229933c",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\error_analysis\\plantdoc_external_calibration_bins.csv": "33f030011151fe8a314d4aa8f96c69ee13bbfcec6317061e0c856a43f7360fac",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\error_analysis\\plantdoc_external_predicted_class_frequency.csv": "5abb1854618f06f07d0a8ae7e64638d4c6872a921b6653638d54c24324ab63d2",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\error_analysis\\plantdoc_external_high_confidence_errors.csv": "d570ccbec7463d4c1c265fca72345dc796637a2cba86e5857e81d81418b07a69",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\error_analysis\\plantdoc_external_very_high_confidence_errors.csv": "8fc189c3628399c3f086989701caeb7409b35a6f9fd267d6b1059e51d8b8f3f2",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\error_analysis\\plantdoc_external_low_confidence_cases.csv": "1a0521563951faef27144b494de47fd977d75ae0315fac168939938718a33a0f",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\error_analysis\\plantdoc_external_top15_most_confident_errors.csv": "4804a2f43c9d3a57f119b7e55597148e409ae79995c616622c5d84d852503d6f",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\error_analysis\\plantdoc_external_top15_highest_entropy_cases.csv": "b3ddaeb1725311bc440e0feec0e9ecef44f65888f8a1d635da54b6a088267906",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\error_analysis\\plantdoc_external_error_confidence_summary.json": "e7983b2a2db7717c87f668d35eb2524d2dfec7d015a0ae3e8f6e6083bbf80f26"
+    }
+}

@@ -1,0 +1,56 @@
+# Main Manuscript Figures
+
+## Figure_1
+
+Figure 1. Normalized confusion matrix for the frozen Improved ConvNeXt-Tiny on the independent PlantDoc tomato test subset (n=79). Ground-truth PlantDoc labels were mapped to eight corresponding PlantVillage tomato classes while the classifier retained its original 10-class output space. External accuracy was 37.97%, with substantial class-dependent misclassification. Values represent row-normalized proportions within each ground-truth class.
+
+## Figure_2
+
+Figure 2. Strict shared-class internal-to-external domain generalization of the frozen Improved ConvNeXt-Tiny. The comparison is restricted to the eight ground-truth classes shared by PlantVillage and PlantDoc while preserving the original 10-way classifier output space. The figure demonstrates the marked loss of classification performance under external domain shift; the external test achieved 37.97% accuracy, 30.10% Macro F1, and 34.90% balanced accuracy.
+
+## Figure_3
+
+Figure 3. Class-wise F1 degradation across the eight classes shared between the internal PlantVillage test partition and external PlantDoc. The largest declines occurred for Bacterial Spot (100.00 percentage points), Mosaic Virus (100.00 points), Leaf Mold (83.33 points), and Healthy (77.78 points), illustrating that the external generalization failure was strongly class dependent.
+
+## Figure_4
+
+Figure 4. Reliability analysis of the frozen Improved ConvNeXt-Tiny under internal and external evaluation. Internal predictions were nearly calibrated, whereas PlantDoc produced severe overconfidence. Expected calibration error increased from 0.000558 internally to 0.548602 externally, while the confidence-accuracy gap increased from 0.0234 to 54.8602 percentage points. No post-hoc external calibration was performed.
+
+## Figure_5
+
+Figure 5. Representative external misclassifications with predicted-class and ground-truth-class Grad-CAM++ maps. Cases were chosen using the deterministic case-selection protocol locked before semantic interpretation. The paired maps show that competing disease targets can rely on spatially different image evidence. Grad-CAM++ is a post-hoc explanation and the visual overlays should not be interpreted as lesion-segmentation ground truth or causal evidence.
+
+## Figure_6
+
+Figure 6. Structured semantic comparison of Grad-CAM++ attention for selected external correct and incorrect predictions. Among alignment-applicable selected cases, symptom-region alignment was 80.00% for correct predictions and 40.00% for incorrect predictions. Moderate or dominant background/context concern occurred in 27.27% of selected correct cases versus 70.59% of selected wrong cases. These percentages are descriptive of the deterministically stratified XAI cohort and are not population-level PlantDoc estimates.
+
+## Figure_7
+
+Figure 7. Semantic attention changes when Grad-CAM++ targeting was switched from the erroneous predicted class to the ground-truth class in selected external errors. Among 14 alignment-comparable cases, true-class targeting improved visible disease-region alignment in 5 cases. Across 17 selected external errors, background/context attention was reduced in 8 cases. The effect was not universal; therefore these observations are descriptive and do not establish causal model reasoning.
+
+# Supplementary Figures
+
+## Supplementary_Figure_S1
+
+Supplementary Figure S1. Overall internal versus external performance of the frozen Improved ConvNeXt-Tiny. The internal independent PlantVillage test performance was near ceiling, whereas PlantDoc accuracy was 37.97% and Macro F1 was 30.10%. This overall comparison is provided as supporting evidence; the strict shared-class comparison in Figure 2 is the primary domain-generalization analysis.
+
+## Supplementary_Figure_S2
+
+Supplementary Figure S2. Accuracy and confidence shift from the internal shared-class subset to PlantDoc. Mean confidence changed from 99.97% internally to 92.83% externally, while external accuracy fell to 37.97%. The separation between confidence and accuracy illustrates severe external overconfidence.
+
+## Supplementary_Figure_S3
+
+Supplementary Figure S3. One-versus-rest receiver operating characteristic curves for the frozen Improved ConvNeXt-Tiny on PlantDoc. The external macro ROC-AUC was 0.7620. ROC-AUC describes score ranking and therefore can remain moderate despite poor argmax classification performance.
+
+## Supplementary_Figure_S4
+
+Supplementary Figure S4. One-versus-rest precision-recall curves for the frozen Improved ConvNeXt-Tiny on PlantDoc. The external macro PR-AUC was 0.4672. Precision-recall analysis complements ROC-AUC by emphasizing positive-class retrieval under the external class distribution.
+
+## Supplementary_Figure_S5
+
+Supplementary Figure S5. Grad-CAM++ comparison for five selected high-confidence correct and five selected high-confidence wrong PlantDoc predictions. Symptom-region alignment was 80.00% in the selected correct group and 40.00% in the selected wrong group; moderate/dominant background concern was 20.00% and 40.00%, respectively. These selected cases illustrate that high confidence does not guarantee correct classification or semantically appropriate spatial attention.
+
+## Supplementary_Figure_S6
+
+Supplementary Figure S6. Predicted-class versus ground-truth-class Grad-CAM++ spatial overlap for the selected misclassified cases. The mean weighted overlap across all 18 wrong cases was 0.2740; for the 17 external wrong cases it was 0.2888. The relatively low overlap supports the observation that competing class targets often depend on different spatial evidence.
+

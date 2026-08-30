@@ -1,0 +1,41 @@
+{
+    "Results_1_Internal_Model_Selection": {
+        "main_tables": [
+            "Table_1"
+        ],
+        "main_figures": [],
+        "key_message": "Improved ConvNeXt-Tiny achieved the highest locked internal independent-test Macro F1."
+    },
+    "Results_2_External_Validation": {
+        "main_tables": [
+            "Table_2"
+        ],
+        "main_figures": [
+            "Figure_1"
+        ],
+        "key_message": "Performance decreased sharply on PlantDoc, with strongly class-dependent external errors."
+    },
+    "Results_3_Domain_Generalization": {
+        "main_tables": [
+            "Table_3",
+            "Table_4"
+        ],
+        "main_figures": [
+            "Figure_2",
+            "Figure_3",
+            "Figure_4"
+        ],
+        "key_message": "The severe performance gap remained after strict same-class comparison and was accompanied by substantial external overconfidence."
+    },
+    "Results_4_Explainability": {
+        "main_tables": [
+            "Table_5"
+        ],
+        "main_figures": [
+            "Figure_5",
+            "Figure_6",
+            "Figure_7"
+        ],
+        "key_message": "Selected external errors showed multiple attention failure patterns including background/context dependence, weak symptom localization, and incorrect class discrimination despite plausible localization."
+    }
+}

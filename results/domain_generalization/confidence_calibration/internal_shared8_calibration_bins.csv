@@ -1,0 +1,11 @@
+domain,bin,lower_bound,upper_bound,samples,accuracy,mean_confidence,absolute_gap
+PlantVillage_Internal_Shared8,1,0.0,0.1,0,,,
+PlantVillage_Internal_Shared8,2,0.1,0.2,0,,,
+PlantVillage_Internal_Shared8,3,0.2,0.30000000000000004,0,,,
+PlantVillage_Internal_Shared8,4,0.30000000000000004,0.4,0,,,
+PlantVillage_Internal_Shared8,5,0.4,0.5,0,,,
+PlantVillage_Internal_Shared8,6,0.5,0.6000000000000001,0,,,
+PlantVillage_Internal_Shared8,7,0.6000000000000001,0.7000000000000001,0,,,
+PlantVillage_Internal_Shared8,8,0.7000000000000001,0.8,1,1.0,0.7891365749756621,0.21086342502433786
+PlantVillage_Internal_Shared8,9,0.8,0.9,1,1.0,0.8971366338183858,0.10286336618161418
+PlantVillage_Internal_Shared8,10,0.9,1.0,1936,0.9994834710743802,0.9998796681386416,0.00039619706426141654

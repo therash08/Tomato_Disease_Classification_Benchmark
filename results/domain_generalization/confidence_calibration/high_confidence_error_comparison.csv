@@ -1,0 +1,4 @@
+domain,samples,errors,high_confidence_errors_ge_90,very_high_confidence_errors_ge_95
+PlantVillage_Internal_Full,2399,1,1,1
+PlantVillage_Internal_Shared8,1938,1,1,1
+PlantDoc_External,79,49,37,30

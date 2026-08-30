@@ -1,0 +1,9 @@
+﻿Metric,Unit,Internal,External,Change,Change_Unit
+Accuracy,%,99.9484,37.9747,-61.9737,pp
+Macro F1,%,99.9363,30.0956,-69.8407,pp
+Balanced Accuracy,%,99.9167,34.8958,-65.0208,pp
+Mean Confidence,%,99.9718,92.8349,-7.1369,pp
+Confidence-Accuracy Gap,pp,0.0234,54.8602,54.8368,pp
+Expected Calibration Error,score,0.000558,0.548602,0.548044,score
+Brier Score,score,0.001101,1.140233,1.139132,score
+Negative Log-Likelihood,score,0.005038,5.455558,5.45052,score

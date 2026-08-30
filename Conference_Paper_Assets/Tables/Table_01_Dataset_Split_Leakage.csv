@@ -1,0 +1,7 @@
+﻿Dataset / Partition,Images,Classes,Purpose
+PlantVillage Raw,"16,011",10,Initial tomato disease dataset
+PlantVillage Clean,"15,997",10,After exact-duplicate removal
+Training,"11,199",10,Model fitting
+Validation,"2,399",10,Model selection
+Internal Test,"2,399",10,Independent internal evaluation
+PlantDoc External Test,79,8 mapped,Independent zero-shot evaluation

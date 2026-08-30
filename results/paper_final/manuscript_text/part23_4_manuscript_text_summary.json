@@ -1,0 +1,60 @@
+{
+    "part": "23.4",
+    "analysis": "Final Discussion, Limitations, and Conclusion",
+    "model": "Improved ConvNeXt-Tiny",
+    "internal_test_samples": 2399,
+    "external_test_samples": 79,
+    "model_output_classes": 10,
+    "external_ground_truth_classes": 8,
+    "discussion_characters": 7245,
+    "limitations_characters": 3880,
+    "conclusion_characters": 1428,
+    "evidence_crosswalk_claims": 9,
+    "internal_performance": {
+        "accuracy_pct": 99.9583159649854,
+        "macro_f1_pct": 99.94904204909535,
+        "balanced_accuracy_pct": 99.93333333333332,
+        "mcc": 0.9995260996801574,
+        "log_loss": 0.0040703541341726
+    },
+    "external_performance": {
+        "accuracy_pct": 37.9746835443038,
+        "macro_precision_pct": 39.49397824397825,
+        "macro_recall_pct": 34.89583333333333,
+        "macro_f1_pct": 30.09560723514212,
+        "balanced_accuracy_pct": 34.89583333333333,
+        "mcc": 0.30989985334962583,
+        "roc_auc": 0.7620278206017841,
+        "pr_auc": 0.4671916813340238,
+        "log_loss": 5.455558002714474,
+        "mean_confidence_pct": 92.83490018754065
+    },
+    "external_calibration": {
+        "confidence_accuracy_gap_pp": 54.86021635534431,
+        "ece": 0.5486021635534432,
+        "brier": 1.1402325803555102,
+        "nll": 5.455558002714474
+    },
+    "xai_headlines": {
+        "correct_symptom_alignment_pct": 80.0,
+        "wrong_symptom_alignment_pct": 40.0,
+        "correct_background_concern_pct": 27.27272727272727,
+        "wrong_background_concern_pct": 70.58823529411765,
+        "all_wrong_weighted_overlap": 0.2740029405175924,
+        "external_wrong_weighted_overlap": 0.2887506251990797
+    },
+    "manuscript_interpretation_scope": "Evidence-grounded interpretation of locked study results.",
+    "external_literature_synthesis_performed": false,
+    "population_level_xai_inference": false,
+    "causal_background_bias_claim": false,
+    "expert_pathology_validation": false,
+    "new_model_inference": false,
+    "new_performance_estimation": false,
+    "new_statistical_testing": false,
+    "new_gradcam_generation": false,
+    "new_semantic_annotation": false,
+    "training": false,
+    "fine_tuning": false,
+    "parameter_updates": false,
+    "ready_for_final_part23_lock": true
+}

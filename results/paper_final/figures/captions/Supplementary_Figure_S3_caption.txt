@@ -1,0 +1,1 @@
+Supplementary Figure S3. One-versus-rest receiver operating characteristic curves for the frozen Improved ConvNeXt-Tiny on PlantDoc. The external macro ROC-AUC was 0.7620. ROC-AUC describes score ranking and therefore can remain moderate despite poor argmax classification performance.

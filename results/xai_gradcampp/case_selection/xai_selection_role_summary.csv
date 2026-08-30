@@ -1,0 +1,9 @@
+selection_role,membership_count,unique_case_count,role_priority
+internal_representative_correct,8,8,1
+internal_all_incorrect,1,1,2
+internal_relative_lowest_confidence,3,3,3
+external_representative_correct,6,6,4
+external_representative_incorrect,8,8,5
+external_high_confidence_correct,5,5,6
+external_high_confidence_incorrect,5,5,7
+external_low_confidence,5,5,8

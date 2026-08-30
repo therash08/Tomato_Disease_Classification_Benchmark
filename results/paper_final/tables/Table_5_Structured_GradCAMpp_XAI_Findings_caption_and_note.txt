@@ -1,0 +1,7 @@
+CAPTION
+-------
+Structured Grad-CAM++ findings from the deterministically selected XAI cohort.
+
+NOTE
+----
+XAI percentages are descriptive for the deterministically stratified selected cohort and are not population-level PlantDoc estimates. Semantic annotations were based on structured visual review without lesion-segmentation ground truth or expert plant-pathologist validation.

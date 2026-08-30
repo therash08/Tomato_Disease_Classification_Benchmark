@@ -1,0 +1,5 @@
+group,n,alignment_applicable_n,symptom_aligned_n,symptom_aligned_all_pct,symptom_aligned_applicable_n,symptom_aligned_applicable_pct,poor_alignment_n,poor_alignment_applicable_n,poor_alignment_applicable_pct,background_concern_n,background_concern_pct,dominant_background_n,dominant_background_pct,off_leaf_attention_n,off_leaf_attention_pct,symptom_region_attention_n,symptom_region_attention_pct,mean_confidence
+Internal Correct,11,10,7,63.63636363636363,7,70.0,3,3,30.0,4,36.36363636363637,0,0.0,0,0.0,6,54.54545454545454,0.963227487822924
+Internal Wrong,1,1,1,100.0,1,100.0,0,0,0.0,0,0.0,0,0.0,0,0.0,1,100.0,0.9998940833150056
+External Correct,11,10,8,72.72727272727273,8,80.0,2,2,20.0,3,27.27272727272727,1,9.090909090909092,1,9.090909090909092,7,63.63636363636363,0.9914560968225653
+External Wrong,17,15,6,35.294117647058826,6,40.0,9,9,60.0,12,70.58823529411765,6,35.294117647058826,6,35.294117647058826,4,23.52941176470588,0.8447774525950936

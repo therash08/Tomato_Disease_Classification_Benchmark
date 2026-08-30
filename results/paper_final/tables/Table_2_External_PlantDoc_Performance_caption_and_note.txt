@@ -1,0 +1,7 @@
+CAPTION
+-------
+Performance of the frozen Improved ConvNeXt-Tiny on the independent PlantDoc tomato test subset.
+
+NOTE
+----
+The external test set contained 79 images from eight mapped tomato classes. The model remained 10-way; no external fine-tuning, calibration, threshold optimization, or model selection was performed.

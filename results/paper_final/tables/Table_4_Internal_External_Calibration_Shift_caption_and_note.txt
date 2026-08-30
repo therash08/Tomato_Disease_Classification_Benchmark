@@ -1,0 +1,7 @@
+CAPTION
+-------
+Confidence and calibration shift from the internal shared-8 test subset to external PlantDoc.
+
+NOTE
+----
+The confidence-accuracy gap is reported in percentage points. ECE, Brier score, and negative log-likelihood are reported in their native scales. No post-hoc external calibration was performed.

@@ -1,0 +1,33 @@
+\begin{table*}[t]
+\centering
+\caption{Independent Internal-Test Performance of the Six Improved Deep Learning Models}
+\label{tab:internal_benchmark}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{clccccc}
+\hline
+\textbf{Rank} &
+\textbf{Model} &
+\textbf{Accuracy (\%)} &
+\textbf{Macro F1 (\%)} &
+\textbf{Balanced Acc. (\%)} &
+\textbf{MCC} &
+\textbf{Log Loss} \\
+\hline
+1 & \textbf{ConvNeXt-Tiny} & 99.9583 & 99.9490 & 99.9333 & 0.999526 & 0.004070 \\
+2 & ResNet50 & 99.8749 & 99.8555 & 99.8912 & 0.998579 & 0.005143 \\
+3 & InceptionNet & 99.7916 & 99.7964 & 99.8148 & 0.997631 & 0.011315 \\
+4 & EfficientNet-B0 & 99.7916 & 99.7004 & 99.7747 & 0.997630 & 0.010794 \\
+5 & MobileNet & 99.6248 & 99.5705 & 99.5807 & 0.995737 & 0.012934 \\
+6 & VGG16 & 99.5832 & 99.4848 & 99.3507 & 0.995262 & 0.027355 \\
+\hline
+\end{tabular}
+}
+\vspace{1mm}
+\begin{minipage}{0.97\textwidth}
+\footnotesize
+All metrics were computed on the untouched PlantVillage independent
+test partition ($n=2,399$). Models shown here correspond to the Improved
+training setting. Macro F1 was the primary ranking metric. The bold model
+denotes the final selected architecture.
+\end{minipage}
+\end{table*}

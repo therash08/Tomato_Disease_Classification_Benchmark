@@ -1,0 +1,31 @@
+{
+    "part": "21.2",
+    "model": "Improved ConvNeXt-Tiny",
+    "selection_type": "deterministic_non_random",
+    "selection_performed_before_real_image_gradcam": true,
+    "random_seed_required": false,
+    "random_sampling_used": false,
+    "manual_image_review_used_for_selection": false,
+    "manual_case_selection_used": false,
+    "selection_rules": {
+        "internal_representative_correct": "One correct sample per shared-8 true class. Select the sample whose confidence is closest to the class-specific median confidence. Tie-break by sample_id ascending.",
+        "internal_all_incorrect": "Include every incorrect internal prediction.",
+        "internal_relative_lowest_confidence": "Select the three lowest-confidence correct internal shared-8 samples. This is a relative internal low-confidence category and is not equivalent to confidence < 0.70.",
+        "external_representative_correct": "For every external true class containing at least one correct prediction, select one correct sample closest to the class-specific median correct confidence. Tie-break by sample_id ascending.",
+        "external_representative_incorrect": "For every external shared true class containing an error, select one incorrect sample closest to the class-specific median error confidence. Tie-break by sample_id ascending.",
+        "external_high_confidence_correct": "Among correct external predictions with confidence >= 0.90, select the five highest-confidence cases. Tie-break by sample_id ascending.",
+        "external_high_confidence_incorrect": "Among incorrect external predictions with confidence >= 0.90, select the five highest-confidence errors. Tie-break by sample_id ascending.",
+        "external_low_confidence": "Among external predictions with confidence < 0.70, select the five lowest-confidence cases. Tie-break by sample_id ascending."
+    },
+    "duplicate_policy": "A sample selected by multiple rules appears once in the unique XAI cohort; every role membership is preserved in a separate membership table.",
+    "primary_cam_target": "predicted_class",
+    "wrong_prediction_secondary_cam_target": "ground_truth_class",
+    "high_confidence_threshold": 0.9,
+    "very_high_confidence_threshold": 0.95,
+    "external_low_confidence_threshold": 0.7,
+    "new_model_inference": false,
+    "gradcam_generated": false,
+    "training": false,
+    "fine_tuning": false,
+    "parameter_updates": false
+}

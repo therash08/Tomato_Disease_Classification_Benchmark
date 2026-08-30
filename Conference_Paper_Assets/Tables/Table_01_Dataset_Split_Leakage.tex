@@ -1,0 +1,31 @@
+\begin{table}[t]
+\centering
+\caption{Dataset Composition and Leakage-Controlled Evaluation Protocol}
+\label{tab:dataset_split}
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{lrrl}
+\hline
+\textbf{Dataset / Partition} &
+\textbf{Images} &
+\textbf{Classes} &
+\textbf{Purpose} \\
+\hline
+PlantVillage Raw & 16,011 & 10 & Initial tomato disease dataset \\
+PlantVillage Clean & 15,997 & 10 & After exact-duplicate removal \\
+Training & 11,199 & 10 & Model fitting \\
+Validation & 2,399 & 10 & Model selection \\
+Internal Test & 2,399 & 10 & Independent internal evaluation \\
+PlantDoc External Test & 79 & 8 mapped & Independent zero-shot evaluation \\
+\hline
+\end{tabular}
+}
+\vspace{1mm}
+\begin{minipage}{\columnwidth}
+\footnotesize
+\textit{Leakage audit:} 14 exact duplicates were removed.
+Cross-split exact/perceptual-hash leakage was zero.
+No exact or near-duplicate overlap was detected between PlantVillage
+and the PlantDoc external test set at the locked pHash threshold
+($\leq 4$).
+\end{minipage}
+\end{table}

@@ -1,0 +1,25 @@
+{
+    "part": "19.3",
+    "correction": "zero_division_precision",
+    "root_cause": "Original safe_divide returned NaN when TP + FP == 0. Pandas mean then excluded the affected class from Macro Precision.",
+    "corrected_policy": "Undefined precision caused by zero predicted positives is assigned 0.0.",
+    "affected_class": "Tomato__Tomato_mosaic_virus",
+    "affected_class_index": 8,
+    "supported_classes_in_macro_average": 8,
+    "raw_predictions_changed": false,
+    "new_model_inference_performed": false,
+    "training_performed": false,
+    "fine_tuning_performed": false,
+    "accuracy_changed": false,
+    "macro_f1_changed": false,
+    "balanced_accuracy_changed": false,
+    "mcc_changed": false,
+    "precision_metrics_corrected": true,
+    "raw_prediction_manifest_sha256": "b3e1066775a340d15eb8f7d24a15628e411a2591675b7fc50ad0d846ed1bfe3e",
+    "metric_protocol_sha256": "dc5231aca6301b3bf79b85283ecce10e5d62c0d560a67a129bd79ce2ea9ee0da",
+    "artifact_sha256": {
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\metrics\\plantdoc_external_overall_metrics_corrected.csv": "593505f82e4480cee65b35c6ff8c8f2aa0f1c979e04840c60bdc25d634feb5b5",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\metrics\\plantdoc_external_overall_metrics_corrected.json": "ab9aefcff35b771a5ddd23c0f11fed228da45bf956fcf1be274fe25074c935c2",
+        "D:\\Tomato_Disease_Research\\results\\external_evaluation\\metrics\\plantdoc_external_per_class_metrics_corrected.csv": "5bb0912f695f5f22434427df5fb1000fd5afa3dbb666b3558a04b2e3ce897479"
+    }
+}

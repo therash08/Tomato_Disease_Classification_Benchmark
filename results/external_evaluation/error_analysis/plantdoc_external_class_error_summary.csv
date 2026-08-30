@@ -1,0 +1,9 @@
+class_index,class_name,support,correct,errors,class_accuracy,error_rate,mean_confidence,mean_wrong_confidence,dominant_wrong_prediction,dominant_wrong_prediction_count
+0,Tomato_Bacterial_spot,9,0,9,0.0,1.0,0.8807725635503652,0.8807725635503652,Tomato_Septoria_leaf_spot,6
+1,Tomato_Early_blight,9,6,3,0.6666666666666666,0.3333333333333333,0.9935379829735166,0.9940352236468467,Tomato_Late_blight,2
+2,Tomato_Late_blight,10,8,2,0.8,0.2,0.9999712332976294,0.9999945889354869,Tomato_Leaf_Mold,1
+3,Tomato_Leaf_Mold,6,1,5,0.16666666666666666,0.8333333333333334,0.9244673880639257,0.9102465559389262,Tomato_Late_blight,3
+4,Tomato_Septoria_leaf_spot,12,6,6,0.5,0.5,0.984929212917529,0.9731202931231483,Tomato_Early_blight,5
+7,Tomato__Tomato_YellowLeaf__Curl_Virus,15,8,7,0.5333333333333333,0.4666666666666667,0.8975612112320724,0.8375845828441413,Tomato_Late_blight,6
+8,Tomato__Tomato_mosaic_virus,10,0,10,0.0,1.0,0.8382556265738585,0.8382556265738585,Tomato_Late_blight,6
+9,Tomato_healthy,8,1,7,0.125,0.875,0.9073917939271514,0.9052846102232852,Tomato_Late_blight,6

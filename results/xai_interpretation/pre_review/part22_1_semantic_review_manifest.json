@@ -1,0 +1,28 @@
+{
+    "part": "22.1",
+    "analysis": "semantic_interpretation_pre_review",
+    "part21_final_integrity_lock_sha256": "3c3ea772b7c65154a268606364efb1969790b24624646197be0c03d5bd607702",
+    "semantic_annotation_protocol_sha256": "143c32195c34af0f4dfb58857950ee6c18274b2d94dd08f4da45314e4e36b0a1",
+    "review_case_count": 40,
+    "cam_annotation_unit_count": 58,
+    "review_atlas_page_count": 40,
+    "controlled_vocabulary_red_test": "PASS",
+    "controlled_vocabulary_green_valid_test": "PASS",
+    "controlled_vocabulary_green_invalid_rejection_test": "PASS",
+    "all_semantic_annotation_fields_initially_unreviewed": true,
+    "semantic_conclusion_generated": false,
+    "new_model_inference_performed": false,
+    "new_gradcam_generation_performed": false,
+    "training_performed": false,
+    "fine_tuning_performed": false,
+    "parameter_updates_performed": false,
+    "artifact_sha256": {
+        "D:\\Tomato_Disease_Research\\results\\xai_interpretation\\pre_review\\part22_semantic_annotation_protocol.json": "143c32195c34af0f4dfb58857950ee6c18274b2d94dd08f4da45314e4e36b0a1",
+        "D:\\Tomato_Disease_Research\\results\\xai_interpretation\\pre_review\\part22_semantic_annotation_codebook.csv": "f4191edbb953bcfe107a671721151386370f18158d836db10bd955e4c0c631aa",
+        "D:\\Tomato_Disease_Research\\results\\xai_interpretation\\pre_review\\part22_case_context_annotation_template.csv": "571bed41c0a1e0e5720c73fd20f78427632e0c341327cd3b1919d4605045c943",
+        "D:\\Tomato_Disease_Research\\results\\xai_interpretation\\pre_review\\part22_cam_semantic_annotation_template.csv": "c145eb9c6da7be8bac2a848a21b3eb8dbba6d20ad2cd52ad31c379110ab1445f",
+        "D:\\Tomato_Disease_Research\\results\\xai_interpretation\\pre_review\\PART22_XAI_Semantic_Review_Atlas.pdf": "9cd3fea417a095c08c605cd681b6d3e42d438a6c837c8349011c262cc56c6193",
+        "D:\\Tomato_Disease_Research\\results\\xai_interpretation\\pre_review\\part22_review_atlas_index.csv": "44563ab723a50eb0be2eaaa082329d3d40f34bf39e00f5724cdcd56cd0e05fca",
+        "D:\\Tomato_Disease_Research\\results\\xai_interpretation\\pre_review\\part22_1_semantic_review_summary.json": "7e906215c7f8ab63c2538be4ee8a0a949606e96c5514c7a292ffe30643568f97"
+    }
+}

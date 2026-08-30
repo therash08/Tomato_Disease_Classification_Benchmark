@@ -1,0 +1,18 @@
+{
+    "part": "24.1",
+    "status": "PASS",
+    "conference_asset_root": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets",
+    "figures_directory": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Figures",
+    "tables_directory": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Tables",
+    "visual_sources_directory": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Visual_Sources",
+    "final_model": "Improved ConvNeXt-Tiny",
+    "checkpoint": "D:\\Tomato_Disease_Research\\checkpoints\\improved\\ConvNeXt_Tiny_best.pth",
+    "internal_test_images": 2399,
+    "external_test_images": 79,
+    "plantvillage_sample": "D:\\Tomato_Disease_Research\\plantvillage\\Tomato_Bacterial_spot\\00416648-be6e-4bd4-bc8d-82f43f8a7240___GCREC_Bact.Sp 3110.JPG",
+    "plantdoc_sample": "D:\\Tomato_Disease_Research\\external_dataset\\PlantDoc_tomato_subset\\test\\Tomato_Early_blight_leaf\\test_Tomato Early blight leaf_1.jpg",
+    "gradcam_auto_loading": false,
+    "training": false,
+    "inference": false,
+    "fine_tuning": false
+}

@@ -1,0 +1,110 @@
+PART 20 — DOMAIN GENERALIZATION ANALYSIS
+
+Final Frozen Model:
+Improved ConvNeXt-Tiny
+
+Source Domain:
+PlantVillage
+
+External Domain:
+PlantDoc tomato subset
+
+STRICT SHARED-8 COMPARISON
+--------------------------
+Internal Shared Samples:
+1938
+
+External Samples:
+79
+
+Internal Shared Accuracy:
+99.9484%
+
+External Accuracy:
+37.9747%
+
+Accuracy Drop:
+61.9737 percentage points
+
+Internal Shared Macro F1:
+99.9363%
+
+External Macro F1:
+30.0956%
+
+Macro F1 Drop:
+69.8407 percentage points
+
+Internal Shared Balanced Accuracy:
+99.9167%
+
+External Balanced Accuracy:
+34.8958%
+
+Balanced Accuracy Drop:
+65.0208 percentage points
+
+CONFIDENCE / CALIBRATION SHIFT
+------------------------------
+Internal Shared Mean Confidence:
+99.9718%
+
+External Mean Confidence:
+92.8349%
+
+Internal Confidence-Accuracy Gap:
+0.0234 pp
+
+External Confidence-Accuracy Gap:
+54.8602 pp
+
+Internal Shared ECE:
+0.000558
+
+External ECE:
+0.548602
+
+Internal Shared Brier Score:
+0.001101
+
+External Brier Score:
+1.140233
+
+Internal Shared Log Loss:
+0.005038
+
+External Log Loss:
+5.455558
+
+HIGH-CONFIDENCE FAILURES
+------------------------
+Internal Shared Errors:
+1
+
+External Errors:
+49
+
+Internal Errors >=90% Confidence:
+1
+
+External Errors >=90% Confidence:
+37
+
+Internal Errors >=95% Confidence:
+1
+
+External Errors >=95% Confidence:
+30
+
+No retraining performed.
+No fine-tuning performed.
+No threshold tuning performed.
+No calibration tuning performed.
+No external model selection performed.
+No new inference performed in PART 20.
+
+Final PART 20 Integrity Lock SHA-256:
+995448c3f7963a8770dba446815f290cc85a4a9b2060ff7ea28e1c54180a0194
+
+Next:
+PART 21 — Explainable AI using Grad-CAM++

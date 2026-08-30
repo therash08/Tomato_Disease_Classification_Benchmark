@@ -1,0 +1,27 @@
+{
+    "part": "21.2",
+    "analysis": "deterministic_xai_case_selection",
+    "model": "Improved ConvNeXt-Tiny",
+    "part21_1_preflight_manifest_sha256": "01418db56c69f536eedbfed518e04a7b3cac41fe3380ef99ee6be97f725412fe",
+    "selection_protocol_sha256": "c3c6b2f2c3f62b36dd74dd65f6ea7c2d47b9357d6506e90f100b397d30070302",
+    "total_role_memberships": 41,
+    "unique_selected_cases": 40,
+    "selected_image_sha256_locked": true,
+    "random_selection_used": false,
+    "manual_image_review_used_for_selection": false,
+    "manual_case_selection_used": false,
+    "case_selection_completed_before_gradcam_generation": true,
+    "real_image_gradcam_generated": false,
+    "new_model_inference_performed": false,
+    "training_performed": false,
+    "fine_tuning_performed": false,
+    "parameter_updates_performed": false,
+    "artifact_sha256": {
+        "D:\\Tomato_Disease_Research\\results\\xai_gradcampp\\case_selection\\part21_2_xai_case_selection_protocol.json": "c3c6b2f2c3f62b36dd74dd65f6ea7c2d47b9357d6506e90f100b397d30070302",
+        "D:\\Tomato_Disease_Research\\results\\xai_gradcampp\\case_selection\\xai_case_selection_role_membership.csv": "7c2782daa78ff78de47ec4e46372766d86eadc1a78a1907e1daa14c0cd5a4b84",
+        "D:\\Tomato_Disease_Research\\results\\xai_gradcampp\\case_selection\\selected_xai_cases_locked.csv": "986672783a3428898311837f142015f3dcf24983b3b050cb79c0160f3205a254",
+        "D:\\Tomato_Disease_Research\\results\\xai_gradcampp\\case_selection\\xai_selection_role_summary.csv": "1511e6b070a44035b4ec5e80fc5e73f9080b4a7e7d4c53585fe9d4d99c374c3b",
+        "D:\\Tomato_Disease_Research\\results\\xai_gradcampp\\case_selection\\xai_selection_class_coverage.csv": "3cc91fc08c2e39ad286e43bfe887e5c32ce86a89f0aaaba2756601fa7f66bef6",
+        "D:\\Tomato_Disease_Research\\results\\xai_gradcampp\\case_selection\\part21_2_xai_case_selection_summary.json": "037e36fef6cf5b2ceb97eb33e1ecbcbb9a4c0474b227c4ff897bf7c7c2238cc8"
+    }
+}

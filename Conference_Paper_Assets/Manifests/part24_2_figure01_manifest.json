@@ -1,0 +1,14 @@
+{
+    "part": "24.2",
+    "figure_number": 1,
+    "title": "Overall Experimental Workflow",
+    "png": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Figures\\Figure_01_Research_Workflow.png",
+    "pdf": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Figures\\Figure_01_Research_Workflow.pdf",
+    "caption": "D:\\Tomato_Disease_Research\\Conference_Paper_Assets\\Figures\\Figure_01_Research_Workflow_Caption.txt",
+    "png_exists": true,
+    "pdf_exists": true,
+    "caption_exists": true,
+    "new_training": false,
+    "new_inference": false,
+    "model_update": false
+}

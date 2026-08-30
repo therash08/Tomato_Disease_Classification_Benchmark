@@ -1,0 +1,19 @@
+xai_case_id,domain,true_class_name,predicted_class_name,disease_alignment_shift,background_bias_shift,weighted_overlap,cosine_similarity,display_label
+XAI_009,internal,Tomato_Early_blight,Tomato_Late_blight,WORSE_TRUE_TARGET,INCREASED_TRUE_TARGET,0.0232923009323077,0.0064529443071681,XAI_009 | INTERNAL | Early blight→Late blight | WORSE_TRUE_TARGET
+XAI_024,external,Tomato__Tomato_YellowLeaf__Curl_Virus,Tomato_Late_blight,UNCHANGED,UNCHANGED,0.0405517683847552,0.0155892997900377,XAI_024 | EXTERNAL | Yellow Leaf Curl Virus→Late blight | UNCHANGED
+XAI_026,external,Tomato_healthy,Tomato_Late_blight,NOT_COMPARABLE,REDUCED_TRUE_TARGET,0.0848288147286084,0.0630512664765511,XAI_026 | EXTERNAL | healthy→Late blight | NOT_COMPARABLE
+XAI_023,external,Tomato_Septoria_leaf_spot,Tomato_Early_blight,UNCHANGED,UNCHANGED,0.110179738372261,0.0765386084320857,XAI_023 | EXTERNAL | Septoria leaf spot→Early blight | UNCHANGED
+XAI_037,external,Tomato__Tomato_YellowLeaf__Curl_Virus,Tomato_Late_blight,IMPROVED_TRUE_TARGET,REDUCED_TRUE_TARGET,0.1431509029973091,0.0986581995367201,XAI_037 | EXTERNAL | Yellow Leaf Curl Virus→Late blight | IMPROVED_TRUE_TARGET
+XAI_025,external,Tomato__Tomato_mosaic_virus,Tomato_Late_blight,IMPROVED_TRUE_TARGET,REDUCED_TRUE_TARGET,0.2001233764276932,0.211678947577935,XAI_025 | EXTERNAL | Mosaic Virus→Late blight | IMPROVED_TRUE_TARGET
+XAI_033,external,Tomato_Late_blight,Tomato_Leaf_Mold,UNCHANGED,UNCHANGED,0.2088015787064644,0.2492310056818776,XAI_033 | EXTERNAL | Late blight→Leaf Mold | UNCHANGED
+XAI_032,external,Tomato_Early_blight,Tomato_Late_blight,IMPROVED_TRUE_TARGET,REDUCED_TRUE_TARGET,0.221061679080113,0.18214702485755,XAI_032 | EXTERNAL | Early blight→Late blight | IMPROVED_TRUE_TARGET
+XAI_020,external,Tomato_Early_blight,Tomato_Septoria_leaf_spot,WORSE_TRUE_TARGET,INCREASED_TRUE_TARGET,0.2791846366474583,0.31983491770683,XAI_020 | EXTERNAL | Early blight→Septoria leaf spot | WORSE_TRUE_TARGET
+XAI_019,external,Tomato_Bacterial_spot,Tomato_Septoria_leaf_spot,UNCHANGED,INCREASED_TRUE_TARGET,0.2962985336144421,0.2789537382348363,XAI_019 | EXTERNAL | Bacterial spot→Septoria leaf spot | UNCHANGED
+XAI_021,external,Tomato_Late_blight,Tomato_Early_blight,WORSE_TRUE_TARGET,INCREASED_TRUE_TARGET,0.3108646712328253,0.2893106266220698,XAI_021 | EXTERNAL | Late blight→Early blight | WORSE_TRUE_TARGET
+XAI_034,external,Tomato_Septoria_leaf_spot,Tomato_Early_blight,IMPROVED_TRUE_TARGET,REDUCED_TRUE_TARGET,0.3136495042521716,0.3950932977015975,XAI_034 | EXTERNAL | Septoria leaf spot→Early blight | IMPROVED_TRUE_TARGET
+XAI_035,external,Tomato__Tomato_YellowLeaf__Curl_Virus,Tomato_Late_blight,UNCHANGED,UNCHANGED,0.3369043442970925,0.3964127028554982,XAI_035 | EXTERNAL | Yellow Leaf Curl Virus→Late blight | UNCHANGED
+XAI_040,external,Tomato_healthy,Tomato_Late_blight,NOT_COMPARABLE,REDUCED_TRUE_TARGET,0.3430005780228334,0.3830275509665231,XAI_040 | EXTERNAL | healthy→Late blight | NOT_COMPARABLE
+XAI_039,external,Tomato__Tomato_mosaic_virus,Tomato_Leaf_Mold,NOT_COMPARABLE,REDUCED_TRUE_TARGET,0.3837867146576241,0.4881725643506256,XAI_039 | EXTERNAL | Mosaic Virus→Leaf Mold | NOT_COMPARABLE
+XAI_022,external,Tomato_Leaf_Mold,Tomato_Early_blight,UNCHANGED,UNCHANGED,0.4939754697188966,0.7062644493254779,XAI_022 | EXTERNAL | Leaf Mold→Early blight | UNCHANGED
+XAI_038,external,Tomato__Tomato_YellowLeaf__Curl_Virus,Tomato_Bacterial_spot,UNCHANGED,UNCHANGED,0.5155535334015511,0.6361703522168038,XAI_038 | EXTERNAL | Yellow Leaf Curl Virus→Bacterial spot | UNCHANGED
+XAI_036,external,Tomato_Bacterial_spot,Tomato_Septoria_leaf_spot,IMPROVED_TRUE_TARGET,REDUCED_TRUE_TARGET,0.6268447838422566,0.7676060863506456,XAI_036 | EXTERNAL | Bacterial spot→Septoria leaf spot | IMPROVED_TRUE_TARGET

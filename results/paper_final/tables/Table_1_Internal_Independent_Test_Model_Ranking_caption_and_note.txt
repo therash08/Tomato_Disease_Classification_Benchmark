@@ -1,0 +1,7 @@
+CAPTION
+-------
+Independent internal test performance of baseline and improved architectures. Models are ranked primarily by Macro F1.
+
+NOTE
+----
+The independent internal test set contained 2,399 previously unseen PlantVillage images. Improved ConvNeXt-Tiny was selected using the predefined ranking hierarchy, with Macro F1 as the primary metric.

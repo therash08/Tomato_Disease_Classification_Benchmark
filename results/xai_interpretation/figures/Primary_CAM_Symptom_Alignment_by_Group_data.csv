@@ -1,0 +1,5 @@
+group,n,alignment_applicable_n,symptom_aligned_applicable_pct
+Internal Correct,11,10,70.0
+Internal Wrong,1,1,100.0
+External Correct,11,10,80.0
+External Wrong,17,15,40.0

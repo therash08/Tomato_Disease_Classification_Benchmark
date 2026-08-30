@@ -1,0 +1,1 @@
+Supplementary Figure S2. Accuracy and confidence shift from the internal shared-class subset to PlantDoc. Mean confidence changed from 99.97% internally to 92.83% externally, while external accuracy fell to 37.97%. The separation between confidence and accuracy illustrates severe external overconfidence.

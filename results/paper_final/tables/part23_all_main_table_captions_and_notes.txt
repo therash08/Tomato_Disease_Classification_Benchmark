@@ -1,0 +1,50 @@
+Table_1
+=======
+
+Caption:
+Independent internal test performance of baseline and improved architectures. Models are ranked primarily by Macro F1.
+
+Note:
+The independent internal test set contained 2,399 previously unseen PlantVillage images. Improved ConvNeXt-Tiny was selected using the predefined ranking hierarchy, with Macro F1 as the primary metric.
+
+
+Table_2
+=======
+
+Caption:
+Performance of the frozen Improved ConvNeXt-Tiny on the independent PlantDoc tomato test subset.
+
+Note:
+The external test set contained 79 images from eight mapped tomato classes. The model remained 10-way; no external fine-tuning, calibration, threshold optimization, or model selection was performed.
+
+
+Table_3
+=======
+
+Caption:
+Class-wise F1 degradation between the internal PlantVillage test set and external PlantDoc test set for the eight shared ground-truth classes.
+
+Note:
+The strict shared-class analysis uses the same eight ground-truth classes in both domains while retaining the original 10-way output space. F1 Drop is Internal F1 minus External F1 in percentage points.
+
+
+Table_4
+=======
+
+Caption:
+Confidence and calibration shift from the internal shared-8 test subset to external PlantDoc.
+
+Note:
+The confidence-accuracy gap is reported in percentage points. ECE, Brier score, and negative log-likelihood are reported in their native scales. No post-hoc external calibration was performed.
+
+
+Table_5
+=======
+
+Caption:
+Structured Grad-CAM++ findings from the deterministically selected XAI cohort.
+
+Note:
+XAI percentages are descriptive for the deterministically stratified selected cohort and are not population-level PlantDoc estimates. Semantic annotations were based on structured visual review without lesion-segmentation ground truth or expert plant-pathologist validation.
+
+

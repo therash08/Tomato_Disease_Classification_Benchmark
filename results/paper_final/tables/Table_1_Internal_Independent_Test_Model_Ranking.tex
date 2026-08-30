@@ -1,0 +1,22 @@
+\begin{table}
+\caption{Independent internal test performance of baseline and improved architectures. Models are ranked primarily by Macro F1.}
+\label{tab:internal_model_ranking}
+\begin{tabular}{rlllllll}
+\toprule
+Rank & Variant & Architecture & Accuracy (\%) & Macro F1 (\%) & Balanced Accuracy (\%) & MCC & Log Loss \\
+\midrule
+1 & Improved & ConvNeXt-Tiny & 99.96 & 99.95 & 99.93 & 0.9995 & 0.0041 \\
+2 & Improved & ResNet50 & 99.87 & 99.86 & 99.89 & 0.9986 & 0.0051 \\
+3 & Improved & InceptionNet & 99.79 & 99.80 & 99.81 & 0.9976 & 0.0113 \\
+4 & Baseline & ConvNeXt-Tiny & 99.79 & 99.73 & 99.67 & 0.9976 & 0.0167 \\
+5 & Baseline & EfficientNet-B0 & 99.75 & 99.73 & 99.69 & 0.9972 & 0.0120 \\
+6 & Improved & EfficientNet-B0 & 99.79 & 99.70 & 99.77 & 0.9976 & 0.0108 \\
+7 & Baseline & ResNet50 & 99.71 & 99.64 & 99.58 & 0.9967 & 0.0111 \\
+8 & Improved & MobileNet & 99.62 & 99.57 & 99.58 & 0.9957 & 0.0129 \\
+9 & Baseline & MobileNet & 99.54 & 99.50 & 99.48 & 0.9948 & 0.0149 \\
+10 & Improved & VGG16 & 99.58 & 99.48 & 99.35 & 0.9953 & 0.0274 \\
+11 & Baseline & InceptionNet & 99.33 & 99.26 & 99.22 & 0.9924 & 0.0224 \\
+12 & Baseline & VGG16 & 98.37 & 98.12 & 98.16 & 0.9815 & 0.0681 \\
+\bottomrule
+\end{tabular}
+\end{table}

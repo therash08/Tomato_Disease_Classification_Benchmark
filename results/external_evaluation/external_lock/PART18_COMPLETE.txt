@@ -1,0 +1,43 @@
+PART 18 — EXTERNAL DATASET PREPARATION COMPLETE
+
+Dataset:
+PlantDoc tomato subset
+
+External partition:
+test
+
+External test images:
+79
+
+External ground-truth classes:
+8
+
+Frozen model output classes:
+10
+
+Cross-dataset duplicate audit:
+PASS
+
+Within-external exact duplicates:
+0
+
+Within-external pHash<=4 candidates:
+0
+
+External test membership SHA-256:
+28a085def3a5d7df34906334f7bc3aeaa3235f8190ef34161242ec904fe792cc
+
+External identity lock SHA-256:
+e9d8386ea11b47b38924b7194afa786987a467a4eac696dfa92ef9c93a706958
+
+Training performed:
+NO
+
+Fine-tuning performed:
+NO
+
+External inference performed:
+NO
+
+Next stage:
+PART 19 — Frozen Improved ConvNeXt-Tiny External Dataset Evaluation

@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering
+\caption{Internal vs. External Generalization and Calibration}
+\label{tab:generalization_calibration}
+\begin{tabular}{lccc}
+\hline
+Metric & Internal & External & Change \\
+\hline
+Accuracy & 99.95\% & 37.97\% & -61.97 pp \\
+Macro F1 & 99.94\% & 30.10\% & -69.84 pp \\
+Balanced Accuracy & 99.92\% & 34.90\% & -65.02 pp \\
+Mean Confidence & 99.97\% & 92.83\% & -7.14 pp \\
+Confidence-Accuracy Gap & 0.0234 pp & 54.8602 pp & +54.84 pp \\
+Expected Calibration Error & 0.000558 & 0.548602 & +0.548044 \\
+Brier Score & 0.001101 & 1.140233 & +1.139132 \\
+Negative Log-Likelihood & 0.005038 & 5.455558 & +5.450520 \\
+\hline
+\end{tabular}
+
+\begin{flushleft}
+\footnotesize
+Internal results correspond to the strict shared-eight PlantVillage comparison subset ($n=1{,}938$); external results correspond to the mapped PlantDoc test set ($n=79$). Performance and calibration values are from the locked PART 20 analysis. Change values preserve the locked full-precision results, whereas displayed endpoints are rounded. ECE = Expected Calibration Error; NLL = Negative Log-Likelihood; pp = percentage points. No post-hoc calibration, external fine-tuning, threshold optimization, or model reselection was performed.
+\end{flushleft}
+\end{table*}

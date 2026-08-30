@@ -1,0 +1,134 @@
+PART 23 — FINAL PAPER PACKAGE COMPLETE
+
+FINAL MODEL
+-----------
+Improved ConvNeXt-Tiny
+
+
+PUBLICATION PACKAGE
+-------------------
+Main Tables:
+5
+
+Main Figures:
+7
+
+Supplementary Figures:
+6
+
+Total Figure Sets:
+13
+
+Packaged PNG/PDF Figure Files:
+26
+
+Discussion:
+COMPLETE
+
+Limitations:
+COMPLETE
+
+Conclusion:
+COMPLETE
+
+Evidence-to-Claim Crosswalk:
+9 claims
+
+
+LOCKED INTERNAL PERFORMANCE
+---------------------------
+Accuracy:
+99.9583%
+
+Macro F1:
+99.9490%
+
+Balanced Accuracy:
+99.9333%
+
+MCC:
+0.999526
+
+
+LOCKED EXTERNAL PERFORMANCE
+---------------------------
+Accuracy:
+37.9747%
+
+Macro F1:
+30.0956%
+
+Balanced Accuracy:
+34.8958%
+
+MCC:
+0.309900
+
+Mean Confidence:
+92.8349%
+
+Expected Calibration Error:
+0.548602
+
+Confidence-Accuracy Gap:
+54.8602 percentage points
+
+
+LOCKED XAI HEADLINES
+--------------------
+External Correct Symptom Alignment:
+80.00%
+
+External Wrong Symptom Alignment:
+40.00%
+
+External Correct Background Concern:
+27.27%
+
+External Wrong Background Concern:
+70.59%
+
+All Wrong Mean CAM Weighted Overlap:
+0.274003
+
+
+RESEARCH INTEGRITY
+------------------
+New Model Inference:
+NO
+
+New Performance Estimation:
+NO
+
+New Statistical Testing:
+NO
+
+New Grad-CAM++ Generation:
+NO
+
+New Semantic Annotation:
+NO
+
+Training:
+NO
+
+Fine-Tuning:
+NO
+
+Parameter Updates:
+NO
+
+
+FINAL PART 23 INTEGRITY LOCK SHA-256
+------------------------------------
+ac252c0d93bdbde65d61d9e178788befddbc1728d9701311a058a3cf8321f282
+
+
+STATUS
+------
+PART 23 COMPLETE
+
+Final locked research pipeline:
+COMPLETE
+
+Ready for manuscript assembly and journal formatting.

@@ -1,0 +1,9 @@
+﻿Class,Internal F1 (%),External F1 (%),F1 Drop (pp)
+Tomato_Bacterial_spot,100.0,0.0,100.0
+Tomato__Tomato_mosaic_virus,100.0,0.0,100.0
+Tomato_Leaf_Mold,100.0,16.66666666666666,83.33333333333334
+Tomato_healthy,100.0,22.22222222222222,77.77777777777779
+Tomato_Late_blight,99.82486865148861,37.2093023255814,62.61556632590721
+Tomato_Septoria_leaf_spot,100.0,48.0,52.0
+Tomato_Early_blight,99.66555183946488,50.0,49.66555183946488
+Tomato__Tomato_YellowLeaf__Curl_Virus,100.0,66.66666666666667,33.33333333333333

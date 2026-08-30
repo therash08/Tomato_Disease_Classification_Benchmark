@@ -1,0 +1,25 @@
+{
+    "model": "ConvNeXt-Tiny",
+    "training_condition": "improved",
+    "samples": 79,
+    "probability_shape": [
+        79,
+        10
+    ],
+    "logit_shape": [
+        79,
+        10
+    ],
+    "csv_path": "D:\\Tomato_Disease_Research\\results\\external_evaluation\\predictions\\plantdoc_convnext_improved_raw_predictions.csv",
+    "csv_sha256": "2ca75682ae47ad884bf2865e0f883c87c63aa615ddf6c4c48048915e2f232f60",
+    "npz_path": "D:\\Tomato_Disease_Research\\results\\external_evaluation\\predictions\\plantdoc_convnext_improved_raw_predictions.npz",
+    "npz_sha256": "9ee8b4fd8e2defffd084d968a32a93a5af7502e637c33641eefd199cc7274cf0",
+    "metadata_path": "D:\\Tomato_Disease_Research\\results\\external_evaluation\\predictions\\plantdoc_convnext_improved_raw_prediction_metadata.json",
+    "metadata_sha256": "a40103bbfbfa6d7fbbb96b5cd845b841efd8297ddaa01bdb233b3f3844ded9ac",
+    "external_identity_lock_sha256": "e9d8386ea11b47b38924b7194afa786987a467a4eac696dfa92ef9c93a706958",
+    "metric_protocol_sha256": "dc5231aca6301b3bf79b85283ecce10e5d62c0d560a67a129bd79ce2ea9ee0da",
+    "raw_predictions_verified": true,
+    "aggregate_metrics_calculated": false,
+    "training_performed": false,
+    "fine_tuning_performed": false
+}

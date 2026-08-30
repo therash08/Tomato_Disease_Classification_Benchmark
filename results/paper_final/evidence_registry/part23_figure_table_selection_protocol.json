@@ -1,0 +1,54 @@
+{
+    "part": "23.1",
+    "selection_goal": "Non-redundant publication evidence selection from cryptographically locked upstream artifacts.",
+    "integrity_verification_policy": "Artifact integrity may be verified by an exact trusted path-to-SHA mapping or by an exact content SHA referenced through the recursively trusted upstream manifest chain.",
+    "main_figure_count": 7,
+    "supplementary_figure_count": 6,
+    "main_table_count": 5,
+    "non_redundancy_policy": {
+        "main_domain_generalization": "Strict shared-8-class comparison is the main figure. The overall comparison is supplementary because strict class matching is methodologically cleaner.",
+        "main_classwise_degradation": "The shared-class F1 comparison is retained. A second F1-drop-only graphic is unnecessary in the main manuscript.",
+        "main_calibration": "The reliability diagram is retained as the main calibration figure. Accuracy-versus-confidence is supporting supplementary evidence.",
+        "main_xai_semantic_summary": "The combined External Correct-versus-Wrong XAI comparison is retained rather than separate main figures for symptom alignment and background attention.",
+        "qualitative_xai": "Representative predicted-versus-true Grad-CAM++ error panels are retained because image-level spatial evidence cannot be replaced by aggregate statistics.",
+        "roc_pr": "ROC and PR curves are supplementary. External classification metrics and the confusion matrix are more directly informative for the study objective."
+    },
+    "main_figures": [
+        "Figure_1",
+        "Figure_2",
+        "Figure_3",
+        "Figure_4",
+        "Figure_5",
+        "Figure_6",
+        "Figure_7"
+    ],
+    "supplementary_figures": [
+        "Supplementary_Figure_S1",
+        "Supplementary_Figure_S2",
+        "Supplementary_Figure_S3",
+        "Supplementary_Figure_S4",
+        "Supplementary_Figure_S5",
+        "Supplementary_Figure_S6"
+    ],
+    "main_tables": [
+        "Table_1",
+        "Table_2",
+        "Table_3",
+        "Table_4",
+        "Table_5"
+    ],
+    "table_integrity_verification_modes": {
+        "Table_1": "TRUSTED_PATH_SHA",
+        "Table_2": "TRUSTED_CONTENT_SHA",
+        "Table_3": "TRUSTED_CONTENT_SHA",
+        "Table_4": "TRUSTED_PATH_SHA",
+        "Table_5": "TRUSTED_PATH_SHA"
+    },
+    "new_results_generated": false,
+    "new_inference": false,
+    "new_gradcam": false,
+    "new_semantic_annotation": false,
+    "training": false,
+    "fine_tuning": false,
+    "parameter_updates": false
+}

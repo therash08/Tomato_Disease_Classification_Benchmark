@@ -1,0 +1,41 @@
+{
+    "part": "21.2",
+    "model": "Improved ConvNeXt-Tiny",
+    "selection_protocol_sha256": "c3c6b2f2c3f62b36dd74dd65f6ea7c2d47b9357d6506e90f100b397d30070302",
+    "selection_is_deterministic": true,
+    "random_sampling_used": false,
+    "manual_image_review_used_for_selection": false,
+    "manual_case_selection_used": false,
+    "total_role_memberships": 41,
+    "unique_selected_cases": 40,
+    "unique_internal_cases": 12,
+    "unique_external_cases": 28,
+    "selected_correct_cases": 22,
+    "selected_incorrect_cases": 18,
+    "internal_representative_correct_cases": 8,
+    "internal_all_error_cases": 1,
+    "internal_relative_lowest_confidence_cases": 3,
+    "external_representative_correct_cases": 6,
+    "external_classes_without_correct_case": [
+        0,
+        8
+    ],
+    "external_classes_without_correct_case_names": [
+        "Tomato_Bacterial_spot",
+        "Tomato__Tomato_mosaic_virus"
+    ],
+    "external_representative_incorrect_cases": 8,
+    "external_high_confidence_correct_cases": 5,
+    "external_high_confidence_incorrect_cases": 5,
+    "external_low_confidence_cases": 5,
+    "external_available_high_confidence_correct_pool": 28,
+    "external_available_high_confidence_incorrect_pool": 37,
+    "external_available_low_confidence_pool": 9,
+    "primary_cam_target": "predicted_class",
+    "secondary_true_class_cam_for_wrong_cases": true,
+    "real_image_gradcam_generated": false,
+    "new_model_inference_performed": false,
+    "training_performed": false,
+    "fine_tuning_performed": false,
+    "parameter_updates_performed": false
+}

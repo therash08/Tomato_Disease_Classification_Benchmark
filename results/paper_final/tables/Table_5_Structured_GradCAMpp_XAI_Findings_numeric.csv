@@ -1,0 +1,15 @@
+Finding,Value,Unit,Scope
+External Correct Symptom Alignment,80.0,%,Selected alignment-applicable external correct XAI cases
+External Wrong Symptom Alignment,40.0,%,Selected alignment-applicable external wrong XAI cases
+Wrong minus Correct Symptom Alignment,-40.0,percentage_points,Selected external XAI cohort
+External Correct Background Concern,27.27272727272727,%,Selected external correct XAI cases
+External Wrong Background Concern,70.58823529411765,%,Selected external wrong XAI cases
+Wrong minus Correct Background Concern,43.31550802139039,percentage_points,Selected external XAI cohort
+High-Confidence Correct Symptom Alignment,80.0,%,Five selected high-confidence external correct cases
+High-Confidence Wrong Symptom Alignment,40.0,%,Five selected high-confidence external wrong cases
+High-Confidence Correct Background Concern,20.0,%,Five selected high-confidence external correct cases
+High-Confidence Wrong Background Concern,40.0,%,Five selected high-confidence external wrong cases
+External True-Target Alignment Improved,5.0,cases,14 alignment-comparable selected external errors
+External True-Target Background Reduced,8.0,cases,17 selected external errors
+All Wrong Mean CAM Weighted Overlap,0.2740029405175924,proportion,18 selected wrong cases
+External Wrong Mean CAM Weighted Overlap,0.2887506251990797,proportion,17 selected external wrong cases

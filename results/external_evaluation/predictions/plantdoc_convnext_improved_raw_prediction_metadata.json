@@ -1,0 +1,43 @@
+{
+    "model": "ConvNeXt-Tiny",
+    "training_condition": "improved",
+    "model_frozen": true,
+    "external_dataset": "PlantDoc tomato subset",
+    "external_partition": "test",
+    "samples": 79,
+    "external_ground_truth_classes": 8,
+    "model_output_classes": 10,
+    "inference_precision": "FP32",
+    "device": "cuda",
+    "batch_size": 16,
+    "batches": 5,
+    "inference_seconds": 2.4236783000233117,
+    "raw_logits_shape": [
+        79,
+        10
+    ],
+    "raw_probability_shape": [
+        79,
+        10
+    ],
+    "probability_sum_max_deviation": 1.710939017129931e-07,
+    "argmax_consistency_verified": true,
+    "locked_sample_order_verified": true,
+    "locked_ground_truth_verified": true,
+    "training_performed": false,
+    "fine_tuning_performed": false,
+    "parameter_update_performed": false,
+    "aggregate_metrics_calculated": false,
+    "class_mapping": {
+        "0": "Tomato_Bacterial_spot",
+        "1": "Tomato_Early_blight",
+        "2": "Tomato_Late_blight",
+        "3": "Tomato_Leaf_Mold",
+        "4": "Tomato_Septoria_leaf_spot",
+        "5": "Tomato_Spider_mites_Two_spotted_spider_mite",
+        "6": "Tomato__Target_Spot",
+        "7": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+        "8": "Tomato__Tomato_mosaic_virus",
+        "9": "Tomato_healthy"
+    }
+}
